@@ -447,7 +447,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '!$RepairDroid_0': 6985180843948622561
+      '!$RepairDroid_1': -2588694603824903661
+      '!$RepairDroid_10': -300161855970309131
+      '!$RepairDroid_11': 9163760114602369915
+      '!$RepairDroid_12': 4191399626512395941
+      '!$RepairDroid_2': 2569412118767978188
+      '!$RepairDroid_3': 712790437522020109
+      '!$RepairDroid_4': -880909060149158150
+      '!$RepairDroid_5': 5192835615080383920
+      '!$RepairDroid_6': 8735093829241684602
+      '!$RepairDroid_7': -8621950312054977072
+      '!$RepairDroid_8': -8757197761336927963
+      '!$RepairDroid_9': -6453676228982675648
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

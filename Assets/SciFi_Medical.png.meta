@@ -772,7 +772,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SciFi_Medical_0: -6830596455222677540
+      SciFi_Medical_1: 3533043561135145920
+      SciFi_Medical_10: -1947518443750428897
+      SciFi_Medical_11: -4488923916685909327
+      SciFi_Medical_12: 7802779708736451101
+      SciFi_Medical_13: -3157826454033339178
+      SciFi_Medical_14: 8057441594528532801
+      SciFi_Medical_15: 1987368445641445445
+      SciFi_Medical_16: 8712052727576517867
+      SciFi_Medical_17: 4957306695578860526
+      SciFi_Medical_18: -6073950248269871520
+      SciFi_Medical_19: -8285007608693023325
+      SciFi_Medical_2: -6967054973715031888
+      SciFi_Medical_20: -3525815059130108753
+      SciFi_Medical_21: -8754008140600477215
+      SciFi_Medical_22: 5893502412601564825
+      SciFi_Medical_23: 2825342738701081849
+      SciFi_Medical_24: -7642573193801452693
+      SciFi_Medical_25: 1968146564769294912
+      SciFi_Medical_3: -2234282545191490933
+      SciFi_Medical_4: 3752974669971004007
+      SciFi_Medical_5: 4101702963566164128
+      SciFi_Medical_6: 5182958732722397761
+      SciFi_Medical_7: 6487543445204503084
+      SciFi_Medical_8: 5945110035035858469
+      SciFi_Medical_9: 5429780610324036660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

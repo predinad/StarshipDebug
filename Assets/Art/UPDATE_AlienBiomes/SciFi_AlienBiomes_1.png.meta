@@ -1,0 +1,2080 @@
+fileFormatVersion: 2
+guid: 6fbbfb1dd369bb54ba8af2d3504a6b90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3896301562682385172
+    second: SciFi_AlienBiomes_1_0
+  - first:
+      213: 690580453609749655
+    second: SciFi_AlienBiomes_1_1
+  - first:
+      213: 8307684350109990200
+    second: SciFi_AlienBiomes_1_2
+  - first:
+      213: 9035989408119986126
+    second: SciFi_AlienBiomes_1_3
+  - first:
+      213: -9176613206635000657
+    second: SciFi_AlienBiomes_1_4
+  - first:
+      213: 2126387702706224794
+    second: SciFi_AlienBiomes_1_5
+  - first:
+      213: 45520976619041842
+    second: SciFi_AlienBiomes_1_6
+  - first:
+      213: 146704943791429152
+    second: SciFi_AlienBiomes_1_7
+  - first:
+      213: 3188792086890601251
+    second: SciFi_AlienBiomes_1_8
+  - first:
+      213: -533825971851020465
+    second: SciFi_AlienBiomes_1_9
+  - first:
+      213: 4666442484936286624
+    second: SciFi_AlienBiomes_1_10
+  - first:
+      213: -1312399793950451369
+    second: SciFi_AlienBiomes_1_11
+  - first:
+      213: 3524857130664946968
+    second: SciFi_AlienBiomes_1_12
+  - first:
+      213: -8608851791571074138
+    second: SciFi_AlienBiomes_1_13
+  - first:
+      213: 6524738074898814254
+    second: SciFi_AlienBiomes_1_14
+  - first:
+      213: 2682468671745115997
+    second: SciFi_AlienBiomes_1_15
+  - first:
+      213: -3950238177348759276
+    second: SciFi_AlienBiomes_1_16
+  - first:
+      213: 5237820971976329
+    second: SciFi_AlienBiomes_1_17
+  - first:
+      213: -6221454103590644556
+    second: SciFi_AlienBiomes_1_18
+  - first:
+      213: 2216888418216774701
+    second: SciFi_AlienBiomes_1_19
+  - first:
+      213: -5800150827441756816
+    second: SciFi_AlienBiomes_1_20
+  - first:
+      213: -667912989089717219
+    second: SciFi_AlienBiomes_1_21
+  - first:
+      213: 2978521697560199308
+    second: SciFi_AlienBiomes_1_22
+  - first:
+      213: -201729812885924407
+    second: SciFi_AlienBiomes_1_23
+  - first:
+      213: 2917439792496683899
+    second: SciFi_AlienBiomes_1_24
+  - first:
+      213: -1361275891731693283
+    second: SciFi_AlienBiomes_1_25
+  - first:
+      213: 411545180849539781
+    second: SciFi_AlienBiomes_1_26
+  - first:
+      213: 3173123878975487530
+    second: SciFi_AlienBiomes_1_27
+  - first:
+      213: 1903724567071637118
+    second: SciFi_AlienBiomes_1_28
+  - first:
+      213: -6303619924106504023
+    second: SciFi_AlienBiomes_1_29
+  - first:
+      213: -4043288849658684279
+    second: SciFi_AlienBiomes_1_30
+  - first:
+      213: 6651537321752202630
+    second: SciFi_AlienBiomes_1_31
+  - first:
+      213: 4878059131805629492
+    second: SciFi_AlienBiomes_1_32
+  - first:
+      213: 145959636081212648
+    second: SciFi_AlienBiomes_1_33
+  - first:
+      213: 7446861822929777770
+    second: SciFi_AlienBiomes_1_34
+  - first:
+      213: -429709498871104394
+    second: SciFi_AlienBiomes_1_35
+  - first:
+      213: -2963080849161894505
+    second: SciFi_AlienBiomes_1_36
+  - first:
+      213: 8973156269044066269
+    second: SciFi_AlienBiomes_1_37
+  - first:
+      213: 5449753085631483589
+    second: SciFi_AlienBiomes_1_38
+  - first:
+      213: -6142589681392902532
+    second: SciFi_AlienBiomes_1_39
+  - first:
+      213: 3715377140865010707
+    second: SciFi_AlienBiomes_1_40
+  - first:
+      213: -703900821534955861
+    second: SciFi_AlienBiomes_1_41
+  - first:
+      213: 6157835906506626351
+    second: SciFi_AlienBiomes_1_42
+  - first:
+      213: -4662663041242307013
+    second: SciFi_AlienBiomes_1_43
+  - first:
+      213: -6035866197358004953
+    second: SciFi_AlienBiomes_1_44
+  - first:
+      213: 4279781065651000445
+    second: SciFi_AlienBiomes_1_45
+  - first:
+      213: 5417563742840722380
+    second: SciFi_AlienBiomes_1_46
+  - first:
+      213: -8167750981560962326
+    second: SciFi_AlienBiomes_1_47
+  - first:
+      213: 3684180923913742185
+    second: SciFi_AlienBiomes_1_48
+  - first:
+      213: 364940775166949017
+    second: SciFi_AlienBiomes_1_49
+  - first:
+      213: -138873121161680778
+    second: SciFi_AlienBiomes_1_50
+  - first:
+      213: -5857047326255944612
+    second: SciFi_AlienBiomes_1_51
+  - first:
+      213: -4700990344409197198
+    second: SciFi_AlienBiomes_1_52
+  - first:
+      213: -7068879437777061686
+    second: SciFi_AlienBiomes_1_53
+  - first:
+      213: -3746143083285919205
+    second: SciFi_AlienBiomes_1_54
+  - first:
+      213: 3611026596574449910
+    second: SciFi_AlienBiomes_1_55
+  - first:
+      213: -4995632489873944081
+    second: SciFi_AlienBiomes_1_56
+  - first:
+      213: -3071890381580757425
+    second: SciFi_AlienBiomes_1_57
+  - first:
+      213: 1344490214425387613
+    second: SciFi_AlienBiomes_1_58
+  - first:
+      213: -3745339449548237578
+    second: SciFi_AlienBiomes_1_59
+  - first:
+      213: -4459104763957438845
+    second: SciFi_AlienBiomes_1_60
+  - first:
+      213: -2039996620035714516
+    second: SciFi_AlienBiomes_1_61
+  - first:
+      213: -3355034816962576574
+    second: SciFi_AlienBiomes_1_62
+  - first:
+      213: -1680467980585879821
+    second: SciFi_AlienBiomes_1_63
+  - first:
+      213: -2827453308755321161
+    second: SciFi_AlienBiomes_1_64
+  - first:
+      213: -255928289888151566
+    second: SciFi_AlienBiomes_1_65
+  - first:
+      213: -5390975164704781916
+    second: SciFi_AlienBiomes_1_66
+  - first:
+      213: -3028984864433763218
+    second: SciFi_AlienBiomes_1_67
+  - first:
+      213: -7494241799332086015
+    second: SciFi_AlienBiomes_1_68
+  - first:
+      213: -6649612776826313291
+    second: SciFi_AlienBiomes_1_69
+  - first:
+      213: -4298405468128532609
+    second: SciFi_AlienBiomes_1_70
+  - first:
+      213: 356052507653199570
+    second: SciFi_AlienBiomes_1_71
+  - first:
+      213: 4345638612865316480
+    second: SciFi_AlienBiomes_1_72
+  - first:
+      213: 6902284599677463331
+    second: SciFi_AlienBiomes_1_73
+  - first:
+      213: -500530093371147530
+    second: SciFi_AlienBiomes_1_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413ab75b0a1721630800000000000000
+      internalID: 3896301562682385172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 451
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cbc32834f659900800000000000000
+      internalID: 690580453609749655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 482
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83db06286e2da4370800000000000000
+      internalID: 8307684350109990200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 448
+        width: 15
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec71f21fd78466d70800000000000000
+      internalID: 9035989408119986126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 448
+        width: 15
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faccc5988ee16a080800000000000000
+      internalID: -9176613206635000657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 449
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e309a7952728d10800000000000000
+      internalID: 2126387702706224794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 449
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234f4394619b1a000800000000000000
+      internalID: 45520976619041842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 451
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0265b7d7e53390200800000000000000
+      internalID: 146704943791429152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_8
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 415
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bd0b1128dd04c20800000000000000
+      internalID: 3188792086890601251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 415
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4731ff5b187798f0800000000000000
+      internalID: -533825971851020465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 387
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a12b6757b882c040800000000000000
+      internalID: 4666442484936286624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 449
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759994e375b69cde0800000000000000
+      internalID: -1312399793950451369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 385
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d694582eecae030800000000000000
+      internalID: 3524857130664946968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 385
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3cb6f38e6378880800000000000000
+      internalID: -8608851791571074138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 383
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e255fc6a5b68c8a50800000000000000
+      internalID: 6524738074898814254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 383
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d574b7c6b0b0a3520800000000000000
+      internalID: 2682468671745115997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 388
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411d0f49e4fed29c0800000000000000
+      internalID: -3950238177348759276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 388
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9868e6a35cb921000800000000000000
+      internalID: 5237820971976329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 255
+        width: 119
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b455199474f8a9a0800000000000000
+      internalID: -6221454103590644556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_19
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 255
+        width: 119
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c0d725548f3ce10800000000000000
+      internalID: 2216888418216774701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07565ae8d89b18fa0800000000000000
+      internalID: -5800150827441756816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 319
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d142078dca81bb6f0800000000000000
+      internalID: -667912989089717219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 351
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c808edaf3b5d55920800000000000000
+      internalID: 2978521697560199308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_23
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 352
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c51452ddcf433df0800000000000000
+      internalID: -201729812885924407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_24
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 352
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7baa55b804dc7820800000000000000
+      internalID: 2917439792496683899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_25
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 359
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d118700f9c6cb1de0800000000000000
+      internalID: -1361275891731693283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_26
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 359
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca8f89592a16b500800000000000000
+      internalID: 411545180849539781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 325
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2eb4a22b53390c20800000000000000
+      internalID: 3173123878975487530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_28
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 322
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e3d7a48636b6a10800000000000000
+      internalID: 1903724567071637118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_29
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 324
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a89e88b31b0588a0800000000000000
+      internalID: -6303619924106504023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_30
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 323
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cdbc7a63a53e7c0800000000000000
+      internalID: -4043288849658684279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 320
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d0b49e3f10f4c50800000000000000
+      internalID: 6651537321752202630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_32
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 322
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cff907fe852b340800000000000000
+      internalID: 4878059131805629492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 263
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec7a24048d860200800000000000000
+      internalID: 145959636081212648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_34
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 263
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64b52f6f51985760800000000000000
+      internalID: 7446861822929777770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_35
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 289
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c3d2bcc7d590af0800000000000000
+      internalID: -429709498871104394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_36
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 258
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79541f0baa501e6d0800000000000000
+      internalID: -2963080849161894505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_37
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 259
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7e07ab51e078c70800000000000000
+      internalID: 8973156269044066269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 257
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce47aeae8961ab40800000000000000
+      internalID: 5449753085631483589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e9897ca3321caa0800000000000000
+      internalID: -6142589681392902532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_40
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 234
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c8ddf13dbaf8330800000000000000
+      internalID: 3715377140865010707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_41
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 196
+        width: 22
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6ad47aeed3b36f0800000000000000
+      internalID: -703900821534955861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 232
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f251970a127057550800000000000000
+      internalID: 6157835906506626351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 227
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36e867faa4ea4fb0800000000000000
+      internalID: -4662663041242307013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_44
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 226
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72530b24cab4c3ca0800000000000000
+      internalID: -6035866197358004953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_45
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 228
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7412963436d46b30800000000000000
+      internalID: 4279781065651000445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_46
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 95
+        width: 104
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc39e08458d0f2b40800000000000000
+      internalID: 5417563742840722380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_47
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 95
+        width: 104
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2f532c1c156ae80800000000000000
+      internalID: -8167750981560962326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_48
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 199
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967262ad707d02330800000000000000
+      internalID: 3684180923913742185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_49
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 199
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996b1e393b7801500800000000000000
+      internalID: 364940775166949017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_50
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 198
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678ee40d1af921ef0800000000000000
+      internalID: -138873121161680778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_51
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 201
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cecdd1d7697bea0800000000000000
+      internalID: -5857047326255944612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_52
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 203
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275d2fc403ab2ceb0800000000000000
+      internalID: -4700990344409197198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_53
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 164
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac83c379a9b46ed90800000000000000
+      internalID: -7068879437777061686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 164
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ac4f2b6b6030cc0800000000000000
+      internalID: -3746143083285919205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_55
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 164
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0de4bbe81fc1230800000000000000
+      internalID: 3611026596574449910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_56
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 164
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1d9ace7b2fbaab0800000000000000
+      internalID: -4995632489873944081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_57
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 128
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4690f839f37e55d0800000000000000
+      internalID: -3071890381580757425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_58
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 124
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5260d20ab698a210800000000000000
+      internalID: 1344490214425387613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_59
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 131
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f49b624d91e50cc0800000000000000
+      internalID: -3745339449548237578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_60
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 134
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3869010b7d31e12c0800000000000000
+      internalID: -4459104763957438845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_61
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 139
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2216c7e1e970b3e0800000000000000
+      internalID: -2039996620035714516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_62
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 139
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fb0e51c958071d0800000000000000
+      internalID: -3355034816962576574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6b2c07647cda8e0800000000000000
+      internalID: -1680467980585879821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 66
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bed2a8323ed2c8d0800000000000000
+      internalID: -2827453308755321161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_65
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 96
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f75e398392c27cf0800000000000000
+      internalID: -255928289888151566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_66
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 68
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a981da76a86f25b0800000000000000
+      internalID: -5390975164704781916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_67
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 71
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c04656052e6f5d0800000000000000
+      internalID: -3028984864433763218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_68
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 71
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f3de92aca1ff790800000000000000
+      internalID: -7494241799332086015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_69
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b56e5f1964d7b3a0800000000000000
+      internalID: -6649612776826313291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_70
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 64
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f772a9b200ff854c0800000000000000
+      internalID: -4298405468128532609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_71
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 39
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d65e088ed3f0f400800000000000000
+      internalID: 356052507653199570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_72
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086fe025b4fce4c30800000000000000
+      internalID: 4345638612865316480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_73
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 37
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bac660647d9cf50800000000000000
+      internalID: 6902284599677463331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_AlienBiomes_1_74
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 39
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa38313882cd09f0800000000000000
+      internalID: -500530093371147530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SciFi_AlienBiomes_1_0: 3896301562682385172
+      SciFi_AlienBiomes_1_1: 690580453609749655
+      SciFi_AlienBiomes_1_10: 4666442484936286624
+      SciFi_AlienBiomes_1_11: -1312399793950451369
+      SciFi_AlienBiomes_1_12: 3524857130664946968
+      SciFi_AlienBiomes_1_13: -8608851791571074138
+      SciFi_AlienBiomes_1_14: 6524738074898814254
+      SciFi_AlienBiomes_1_15: 2682468671745115997
+      SciFi_AlienBiomes_1_16: -3950238177348759276
+      SciFi_AlienBiomes_1_17: 5237820971976329
+      SciFi_AlienBiomes_1_18: -6221454103590644556
+      SciFi_AlienBiomes_1_19: 2216888418216774701
+      SciFi_AlienBiomes_1_2: 8307684350109990200
+      SciFi_AlienBiomes_1_20: -5800150827441756816
+      SciFi_AlienBiomes_1_21: -667912989089717219
+      SciFi_AlienBiomes_1_22: 2978521697560199308
+      SciFi_AlienBiomes_1_23: -201729812885924407
+      SciFi_AlienBiomes_1_24: 2917439792496683899
+      SciFi_AlienBiomes_1_25: -1361275891731693283
+      SciFi_AlienBiomes_1_26: 411545180849539781
+      SciFi_AlienBiomes_1_27: 3173123878975487530
+      SciFi_AlienBiomes_1_28: 1903724567071637118
+      SciFi_AlienBiomes_1_29: -6303619924106504023
+      SciFi_AlienBiomes_1_3: 9035989408119986126
+      SciFi_AlienBiomes_1_30: -4043288849658684279
+      SciFi_AlienBiomes_1_31: 6651537321752202630
+      SciFi_AlienBiomes_1_32: 4878059131805629492
+      SciFi_AlienBiomes_1_33: 145959636081212648
+      SciFi_AlienBiomes_1_34: 7446861822929777770
+      SciFi_AlienBiomes_1_35: -429709498871104394
+      SciFi_AlienBiomes_1_36: -2963080849161894505
+      SciFi_AlienBiomes_1_37: 8973156269044066269
+      SciFi_AlienBiomes_1_38: 5449753085631483589
+      SciFi_AlienBiomes_1_39: -6142589681392902532
+      SciFi_AlienBiomes_1_4: -9176613206635000657
+      SciFi_AlienBiomes_1_40: 3715377140865010707
+      SciFi_AlienBiomes_1_41: -703900821534955861
+      SciFi_AlienBiomes_1_42: 6157835906506626351
+      SciFi_AlienBiomes_1_43: -4662663041242307013
+      SciFi_AlienBiomes_1_44: -6035866197358004953
+      SciFi_AlienBiomes_1_45: 4279781065651000445
+      SciFi_AlienBiomes_1_46: 5417563742840722380
+      SciFi_AlienBiomes_1_47: -8167750981560962326
+      SciFi_AlienBiomes_1_48: 3684180923913742185
+      SciFi_AlienBiomes_1_49: 364940775166949017
+      SciFi_AlienBiomes_1_5: 2126387702706224794
+      SciFi_AlienBiomes_1_50: -138873121161680778
+      SciFi_AlienBiomes_1_51: -5857047326255944612
+      SciFi_AlienBiomes_1_52: -4700990344409197198
+      SciFi_AlienBiomes_1_53: -7068879437777061686
+      SciFi_AlienBiomes_1_54: -3746143083285919205
+      SciFi_AlienBiomes_1_55: 3611026596574449910
+      SciFi_AlienBiomes_1_56: -4995632489873944081
+      SciFi_AlienBiomes_1_57: -3071890381580757425
+      SciFi_AlienBiomes_1_58: 1344490214425387613
+      SciFi_AlienBiomes_1_59: -3745339449548237578
+      SciFi_AlienBiomes_1_6: 45520976619041842
+      SciFi_AlienBiomes_1_60: -4459104763957438845
+      SciFi_AlienBiomes_1_61: -2039996620035714516
+      SciFi_AlienBiomes_1_62: -3355034816962576574
+      SciFi_AlienBiomes_1_63: -1680467980585879821
+      SciFi_AlienBiomes_1_64: -2827453308755321161
+      SciFi_AlienBiomes_1_65: -255928289888151566
+      SciFi_AlienBiomes_1_66: -5390975164704781916
+      SciFi_AlienBiomes_1_67: -3028984864433763218
+      SciFi_AlienBiomes_1_68: -7494241799332086015
+      SciFi_AlienBiomes_1_69: -6649612776826313291
+      SciFi_AlienBiomes_1_7: 146704943791429152
+      SciFi_AlienBiomes_1_70: -4298405468128532609
+      SciFi_AlienBiomes_1_71: 356052507653199570
+      SciFi_AlienBiomes_1_72: 4345638612865316480
+      SciFi_AlienBiomes_1_73: 6902284599677463331
+      SciFi_AlienBiomes_1_74: -500530093371147530
+      SciFi_AlienBiomes_1_8: 3188792086890601251
+      SciFi_AlienBiomes_1_9: -533825971851020465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

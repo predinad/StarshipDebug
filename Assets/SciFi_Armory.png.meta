@@ -1022,7 +1022,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SciFi_Armory_0: 5913266039705600095
+      SciFi_Armory_1: -5380930628521772516
+      SciFi_Armory_10: 5896299431536769796
+      SciFi_Armory_11: 5991399906168940664
+      SciFi_Armory_12: 5607569320270405304
+      SciFi_Armory_13: -4900846068238765084
+      SciFi_Armory_14: 613223344780113538
+      SciFi_Armory_15: 4441759550426008009
+      SciFi_Armory_16: -7801381225545464024
+      SciFi_Armory_17: -8115197771173578985
+      SciFi_Armory_18: 4821730821734397084
+      SciFi_Armory_19: 6199362189368198092
+      SciFi_Armory_2: 3543633643103668864
+      SciFi_Armory_20: -3643232357138038
+      SciFi_Armory_21: 5149741816001912551
+      SciFi_Armory_22: -3194450241447759585
+      SciFi_Armory_23: -8453698944720340931
+      SciFi_Armory_24: -8867150215222846675
+      SciFi_Armory_25: -6281581941357323121
+      SciFi_Armory_26: -3895672715527899869
+      SciFi_Armory_27: -4724973581161511376
+      SciFi_Armory_28: -742281989854607791
+      SciFi_Armory_29: -2446707247845397847
+      SciFi_Armory_3: 6177135590830263765
+      SciFi_Armory_30: -4705086772346107747
+      SciFi_Armory_31: 1579734205928468707
+      SciFi_Armory_32: -8408291971606611766
+      SciFi_Armory_33: -6144103464428467500
+      SciFi_Armory_34: 7301027041332989460
+      SciFi_Armory_35: -7012020090410844213
+      SciFi_Armory_4: 95884668808232919
+      SciFi_Armory_5: 2202819686373073690
+      SciFi_Armory_6: -879010012276715232
+      SciFi_Armory_7: -4146855008273523322
+      SciFi_Armory_8: -1278124734537232576
+      SciFi_Armory_9: -365012391603942622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SciFi_DiagWallsForParallax_0: 551522028009830109
+      SciFi_DiagWallsForParallax_1: -8930013850163174096
+      SciFi_DiagWallsForParallax_2: -5747725323894079362
+      SciFi_DiagWallsForParallax_3: 1407727060663986622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

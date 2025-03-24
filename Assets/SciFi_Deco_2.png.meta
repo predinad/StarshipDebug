@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SciFi_Deco_2_0: 1716258468745868706
+      SciFi_Deco_2_1: 1733765320965061005
+      SciFi_Deco_2_10: 2346216689144130564
+      SciFi_Deco_2_11: 2812364068467992844
+      SciFi_Deco_2_2: -8236363468434491550
+      SciFi_Deco_2_3: -1356445893525372677
+      SciFi_Deco_2_4: 4968952807535700667
+      SciFi_Deco_2_5: -1105723086379894236
+      SciFi_Deco_2_6: 2060842429521524443
+      SciFi_Deco_2_7: 1573037613572712613
+      SciFi_Deco_2_8: 5231057341743070432
+      SciFi_Deco_2_9: -4093648342964332746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

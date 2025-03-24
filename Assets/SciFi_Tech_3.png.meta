@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SciFi_Tech_3_0: -741755474755205063
+      SciFi_Tech_3_1: 5098797225611475923
+      SciFi_Tech_3_2: -9170696576420733852
+      SciFi_Tech_3_3: 2366775033429104698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
