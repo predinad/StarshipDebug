@@ -56,5 +56,9 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "StarshipDebug.sln"
+    "dotnet.defaultSolution": "StarshipDebug.sln",
+    "files.associations": {
+        "picalc": "cpp",
+        "picalc2": "cpp"
+    }
 }
