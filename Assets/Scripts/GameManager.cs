@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    /// Structure for UI panel entries
+    /// Each entry contains a name and a reference to the GameObject representing the panel.
     [System.Serializable]
     public struct PanelEntry
     {
@@ -11,10 +14,25 @@ public class GameManager : MonoBehaviour
         public GameObject panelObject;
     }
 
+    /// Structure for task UI
+    /// Each task UI contains a reference to the GameObject and a TextMeshProUGUI component for displaying text.
+    [System.Serializable]
+    public struct TaskUI
+    {
+        public GameObject taskUIObject;
+        public TextMeshProUGUI showTaskButtonText;
+    }
+    public TaskUI taskUI;
+
+    // Scene names for each scene
     [SerializeField] private string mainMenuSceneName = "MainMenuScene";
     [SerializeField] private string gameSceneName = "MainScene";
+
+    // List of UI panels to be managed.
     [SerializeField] private List<PanelEntry> uiPanelEntries;
 
+    /// Dictionary to hold references to UI panels.
+    /// The key is the panel name, and the value is the GameObject reference.
     private Dictionary<string, GameObject> uiPanels = new();
 
     void Awake()
@@ -31,6 +49,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        // Pause and resume the game using the Escape key
         if (IsPanelActive("PausePanel") && Input.GetKeyDown(KeyCode.Escape))
         {
             ResumeGame();
@@ -85,6 +104,27 @@ public class GameManager : MonoBehaviour
         #else
             Application.Quit();
         #endif
+    }
+
+    public void ToggleShowingTaskUI()
+    {
+        if (taskUI.taskUIObject != null && taskUI.showTaskButtonText != null)
+        {
+            if(taskUI.taskUIObject.activeSelf)
+            {
+                taskUI.taskUIObject.SetActive(false);
+                taskUI.showTaskButtonText.text = "Show Task List +";
+            }
+            else
+            {
+                taskUI.taskUIObject.SetActive(true);
+                taskUI.showTaskButtonText.text = "Hide Task List -";
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Task UI is not assigned in the GameManager.");
+        }
     }
 
     private void LoadScene(string sceneName)
