@@ -873,6 +873,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4891774597161072061, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
+      propertyPath: gameSceneName
+      value: MainScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891774597161072061, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
       propertyPath: uiPanelEntries.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1599,7 +1603,7 @@ Transform:
   m_GameObject: {fileID: 2037326312}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.4102297, y: -2.0086615, z: 0.27673993}
+  m_LocalPosition: {x: 3.1823, y: -10.0541, z: 0.27673993}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
