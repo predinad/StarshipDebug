@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlayerCharacterController : MonoBehaviour
 {
-    private float speed = 4f; // Default speed of the character
+    private float speed = 3.5f; // Default speed of the character
     private Rigidbody2D rb;
     private Animator animator;
     private Vector2 lastMoveDirection = Vector2.down;

@@ -8,7 +8,7 @@ public class PuzzleLauncher : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-                 // Check if the entering object has the Player tag
+        // Check if the entering object has the Player tag
         if (other.CompareTag("Player"))
         {
             // Activate all specified objects
