@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: e0fa4ed626bcf704ca948c4a6404d893
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4547249116431524525
+    second: SciFi_Deco_3_0
+  - first:
+      213: 6249456318990346402
+    second: SciFi_Deco_3_1
+  - first:
+      213: -2582602499667293434
+    second: SciFi_Deco_3_2
+  - first:
+      213: 2439493269091822327
+    second: SciFi_Deco_3_3
+  - first:
+      213: 8113178389619087517
+    second: SciFi_Deco_3_4
+  - first:
+      213: -1591436840304214822
+    second: SciFi_Deco_3_5
+  - first:
+      213: -3692228833964427648
+    second: SciFi_Deco_3_6
+  - first:
+      213: -6739272135134593175
+    second: SciFi_Deco_3_7
+  - first:
+      213: -6243041424835243012
+    second: SciFi_Deco_3_8
+  - first:
+      213: -6992628054424823393
+    second: SciFi_Deco_3_9
+  - first:
+      213: 576153155144018800
+    second: SciFi_Deco_3_10
+  - first:
+      213: 5792254808053692854
+    second: SciFi_Deco_3_11
+  - first:
+      213: -1051107436394672070
+    second: SciFi_Deco_3_12
+  - first:
+      213: 8476118913511669145
+    second: SciFi_Deco_3_13
+  - first:
+      213: 8631355550538605823
+    second: SciFi_Deco_3_14
+  - first:
+      213: 206907339935153799
+    second: SciFi_Deco_3_15
+  - first:
+      213: 3787631530513155713
+    second: SciFi_Deco_3_16
+  - first:
+      213: 7419742104895307068
+    second: SciFi_Deco_3_17
+  - first:
+      213: 6451674778815656269
+    second: SciFi_Deco_3_18
+  - first:
+      213: -6999169023399947890
+    second: SciFi_Deco_3_19
+  - first:
+      213: 6961937688847853839
+    second: SciFi_Deco_3_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SciFi_Deco_3_0
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 191
+        width: 34
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da22c12aaf21b1f30800000000000000
+      internalID: 4547249116431524525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 506
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a86dbc39678ab650800000000000000
+      internalID: 6249456318990346402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 137
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b8b43b5b0c82cd0800000000000000
+      internalID: -2582602499667293434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 415
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faac280432dad120800000000000000
+      internalID: 2439493269091822327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 415
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d981f9882ccc79070800000000000000
+      internalID: 8113178389619087517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 415
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc723320a41ae9e0800000000000000
+      internalID: -1591436840304214822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_6
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 415
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0867812107192ccc0800000000000000
+      internalID: -3692228833964427648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_7
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 415
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f3d9403bb4972a0800000000000000
+      internalID: -6739272135134593175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 105
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf395a2b6e24c59a0800000000000000
+      internalID: -6243041424835243012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 42
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99d39145d135fe90800000000000000
+      internalID: -6992628054424823393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_10
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 320
+        width: 122
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b6494fd38eef700800000000000000
+      internalID: 576153155144018800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 95
+        width: 251
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9b69a2f09326050800000000000000
+      internalID: 5792254808053692854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 137
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a309ce80b57b961f0800000000000000
+      internalID: -1051107436394672070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 223
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d35d15e3931a570800000000000000
+      internalID: 8476118913511669145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 137
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff423ff642cb8c770800000000000000
+      internalID: 8631355550538605823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 105
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e714221251fd200800000000000000
+      internalID: 206907339935153799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 126
+        width: 106
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1864e4c2fce509430800000000000000
+      internalID: 3787631530513155713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 233
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d3b47022838f660800000000000000
+      internalID: 7419742104895307068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 63
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4177a56704f88950800000000000000
+      internalID: 6451674778815656269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_19
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81145d3bd4fdde90800000000000000
+      internalID: -6999169023399947890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Deco_3_20
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 0
+        width: 103
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f092e2c2175cd9060800000000000000
+      internalID: 6961937688847853839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SciFi_Deco_3_0: 4547249116431524525
+      SciFi_Deco_3_1: 6249456318990346402
+      SciFi_Deco_3_10: 576153155144018800
+      SciFi_Deco_3_11: 5792254808053692854
+      SciFi_Deco_3_12: -1051107436394672070
+      SciFi_Deco_3_13: 8476118913511669145
+      SciFi_Deco_3_14: 8631355550538605823
+      SciFi_Deco_3_15: 206907339935153799
+      SciFi_Deco_3_16: 3787631530513155713
+      SciFi_Deco_3_17: 7419742104895307068
+      SciFi_Deco_3_18: 6451674778815656269
+      SciFi_Deco_3_19: -6999169023399947890
+      SciFi_Deco_3_2: -2582602499667293434
+      SciFi_Deco_3_20: 6961937688847853839
+      SciFi_Deco_3_3: 2439493269091822327
+      SciFi_Deco_3_4: 8113178389619087517
+      SciFi_Deco_3_5: -1591436840304214822
+      SciFi_Deco_3_6: -3692228833964427648
+      SciFi_Deco_3_7: -6739272135134593175
+      SciFi_Deco_3_8: -6243041424835243012
+      SciFi_Deco_3_9: -6992628054424823393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

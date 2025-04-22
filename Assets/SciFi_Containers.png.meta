@@ -1,0 +1,1950 @@
+fileFormatVersion: 2
+guid: 16bbe63b8bdc83c43b6088bc947fffcd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6243387081277830766
+    second: SciFi_Containers_0
+  - first:
+      213: 5881808376925187222
+    second: SciFi_Containers_1
+  - first:
+      213: -5367757631167286706
+    second: SciFi_Containers_2
+  - first:
+      213: -1921939876762580420
+    second: SciFi_Containers_3
+  - first:
+      213: 841864917108107308
+    second: SciFi_Containers_4
+  - first:
+      213: -544139525175475284
+    second: SciFi_Containers_5
+  - first:
+      213: 6971056156299077029
+    second: SciFi_Containers_6
+  - first:
+      213: -8245208222595898954
+    second: SciFi_Containers_7
+  - first:
+      213: 4681518621601276317
+    second: SciFi_Containers_8
+  - first:
+      213: -8303837296753795894
+    second: SciFi_Containers_9
+  - first:
+      213: 7361386555999359948
+    second: SciFi_Containers_10
+  - first:
+      213: -4345094936049233947
+    second: SciFi_Containers_11
+  - first:
+      213: 1419942634557828433
+    second: SciFi_Containers_12
+  - first:
+      213: 262403098384432958
+    second: SciFi_Containers_13
+  - first:
+      213: 3101281943498799090
+    second: SciFi_Containers_14
+  - first:
+      213: 73299183919430757
+    second: SciFi_Containers_15
+  - first:
+      213: 8659082890606175906
+    second: SciFi_Containers_16
+  - first:
+      213: 9065681222635138866
+    second: SciFi_Containers_17
+  - first:
+      213: 6769456986783096131
+    second: SciFi_Containers_18
+  - first:
+      213: -5899739984992851741
+    second: SciFi_Containers_19
+  - first:
+      213: 8780593384263466218
+    second: SciFi_Containers_20
+  - first:
+      213: 694962330223004961
+    second: SciFi_Containers_21
+  - first:
+      213: -3708676713465803504
+    second: SciFi_Containers_22
+  - first:
+      213: 112245748527704016
+    second: SciFi_Containers_23
+  - first:
+      213: -7877233523213339472
+    second: SciFi_Containers_24
+  - first:
+      213: 9043386900522274512
+    second: SciFi_Containers_25
+  - first:
+      213: -6168636310212034746
+    second: SciFi_Containers_26
+  - first:
+      213: -3047491317658254216
+    second: SciFi_Containers_27
+  - first:
+      213: 3616385294626102702
+    second: SciFi_Containers_28
+  - first:
+      213: 4732483672935493169
+    second: SciFi_Containers_29
+  - first:
+      213: 4248586738088637638
+    second: SciFi_Containers_30
+  - first:
+      213: -3682465828662476626
+    second: SciFi_Containers_31
+  - first:
+      213: 9168790708339682677
+    second: SciFi_Containers_32
+  - first:
+      213: -8144024201074521162
+    second: SciFi_Containers_33
+  - first:
+      213: -3214722154996213157
+    second: SciFi_Containers_34
+  - first:
+      213: -5860553943897064288
+    second: SciFi_Containers_35
+  - first:
+      213: -7672810840758892253
+    second: SciFi_Containers_36
+  - first:
+      213: 305803580858369061
+    second: SciFi_Containers_37
+  - first:
+      213: 1223681525288891868
+    second: SciFi_Containers_38
+  - first:
+      213: -2802337663082388932
+    second: SciFi_Containers_39
+  - first:
+      213: 6352072916011688009
+    second: SciFi_Containers_40
+  - first:
+      213: 1830095519615269111
+    second: SciFi_Containers_41
+  - first:
+      213: -8830420109802142242
+    second: SciFi_Containers_42
+  - first:
+      213: -8087858904542586292
+    second: SciFi_Containers_43
+  - first:
+      213: 1453947983908288056
+    second: SciFi_Containers_44
+  - first:
+      213: -5184848821488840512
+    second: SciFi_Containers_45
+  - first:
+      213: -6779583429800616333
+    second: SciFi_Containers_46
+  - first:
+      213: -8123704229436718960
+    second: SciFi_Containers_47
+  - first:
+      213: 1432616602342219552
+    second: SciFi_Containers_48
+  - first:
+      213: -1394279899752472380
+    second: SciFi_Containers_49
+  - first:
+      213: 7393335308079676157
+    second: SciFi_Containers_50
+  - first:
+      213: 1997857317552653294
+    second: SciFi_Containers_51
+  - first:
+      213: 5608899639441143505
+    second: SciFi_Containers_52
+  - first:
+      213: -7917598980162343751
+    second: SciFi_Containers_53
+  - first:
+      213: -5478728379002103365
+    second: SciFi_Containers_54
+  - first:
+      213: 8964875679395342646
+    second: SciFi_Containers_55
+  - first:
+      213: 2233541813044161268
+    second: SciFi_Containers_56
+  - first:
+      213: 1434573574011452650
+    second: SciFi_Containers_57
+  - first:
+      213: 2035999454015802372
+    second: SciFi_Containers_58
+  - first:
+      213: -6825542532317390790
+    second: SciFi_Containers_59
+  - first:
+      213: 1903532379599859883
+    second: SciFi_Containers_60
+  - first:
+      213: 9013018936469728463
+    second: SciFi_Containers_61
+  - first:
+      213: 8011418789782750171
+    second: SciFi_Containers_62
+  - first:
+      213: 6059456915530793761
+    second: SciFi_Containers_63
+  - first:
+      213: 752671639700989279
+    second: SciFi_Containers_64
+  - first:
+      213: 873004212646455140
+    second: SciFi_Containers_65
+  - first:
+      213: 5099693010636988488
+    second: SciFi_Containers_66
+  - first:
+      213: -5760300122231632998
+    second: SciFi_Containers_67
+  - first:
+      213: 284861458837308655
+    second: SciFi_Containers_68
+  - first:
+      213: 9219267304432064678
+    second: SciFi_Containers_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SciFi_Containers_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 93
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66f3d6b877f4a650800000000000000
+      internalID: 6243387081277830766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 479
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cea8f3e8160a150800000000000000
+      internalID: 5881808376925187222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 479
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42b1e1cfd4e185b0800000000000000
+      internalID: -5367757631167286706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 483
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a88ed6dd5e355e0800000000000000
+      internalID: -1921939876762580420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 383
+        width: 87
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28a7158ea7eeab00800000000000000
+      internalID: 841864917108107308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 479
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca38aad1cf3d278f0800000000000000
+      internalID: -544139525175475284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 479
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5a181d3aa2eb060800000000000000
+      internalID: 6971056156299077029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_7
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 447
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1aa097ec2239d80800000000000000
+      internalID: -8245208222595898954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 414
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91abe1f16818f040800000000000000
+      internalID: 4681518621601276317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_9
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 414
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc995669f7d2cc80800000000000000
+      internalID: -8303837296753795894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 416
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc39da40216e82660800000000000000
+      internalID: 7361386555999359948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 352
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efcf6d4d2f13b3c0800000000000000
+      internalID: -4345094936049233947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_12
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 414
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d604e8d46a4b310800000000000000
+      internalID: 1419942634557828433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 414
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f7a2b4a3e34a300800000000000000
+      internalID: 262403098384432958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_14
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 384
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7349e0f77f90b20800000000000000
+      internalID: 3101281943498799090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 93
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cf7db2839640100800000000000000
+      internalID: 73299183919430757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 351
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a66e3fd20e3b2870800000000000000
+      internalID: 8659082890606175906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 383
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fa81a3a05cfcd70800000000000000
+      internalID: 9065681222635138866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 354
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d1e7b6341f1fd50800000000000000
+      internalID: 6769456986783096131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 355
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e82557edb9ef1ea0800000000000000
+      internalID: -5899739984992851741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 191
+        width: 87
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec3b22592fead970800000000000000
+      internalID: 8780593384263466218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_21
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 351
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d4839ae8005a900800000000000000
+      internalID: 694962330223004961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_22
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 383
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d8b13bd22288cc0800000000000000
+      internalID: -3708676713465803504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_23
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 354
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7aa80e9e6ce8100800000000000000
+      internalID: 112245748527704016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_24
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 355
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4f11498d17ea290800000000000000
+      internalID: -7877233523213339472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_25
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 320
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de0d0cd870908d70800000000000000
+      internalID: 9043386900522274512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 319
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f3c3d65f9946aa0800000000000000
+      internalID: -6168636310212034746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_27
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87484eafac225b5d0800000000000000
+      internalID: -3047491317658254216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_28
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 320
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead9229d34bff2230800000000000000
+      internalID: 3616385294626102702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_29
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 287
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ee7a6a3d82da140800000000000000
+      internalID: 4732483672935493169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_30
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 292
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c47539d02306fa30800000000000000
+      internalID: 4248586738088637638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_31
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 319
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea00f01e6d045ecc0800000000000000
+      internalID: -3682465828662476626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_32
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d2d7622961e3f70800000000000000
+      internalID: 9168790708339682677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_33
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 320
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbc4c4532d9afe80800000000000000
+      internalID: -8144024201074521162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_34
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 287
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a5fdb7b330363d0800000000000000
+      internalID: -3214722154996213157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_35
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 288
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac30031d312baea0800000000000000
+      internalID: -5860553943897064288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_36
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 295
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329cccf4133b48590800000000000000
+      internalID: -7672810840758892253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_37
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 291
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5240b109cbe6e3400800000000000000
+      internalID: 305803580858369061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_38
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 294
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd57d092dd36bf010800000000000000
+      internalID: 1223681525288891868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_39
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 295
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32a64b2eb81c19d0800000000000000
+      internalID: -2802337663082388932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_40
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 291
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940a14299a8172850800000000000000
+      internalID: 6352072916011688009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_41
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 294
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8b3b7cd2ec56910800000000000000
+      internalID: 1830095519615269111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 191
+        width: 65
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed507c912bb047580800000000000000
+      internalID: -8830420109802142242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_43
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 191
+        width: 96
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a52497d2722cf80800000000000000
+      internalID: -8087858904542586292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_44
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 260
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836bfbeecf57d2410800000000000000
+      internalID: 1453947983908288056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_45
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 255
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c01e05a777bb08b0800000000000000
+      internalID: -5184848821488840512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_46
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 191
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e1c955ac41ae1a0800000000000000
+      internalID: -6779583429800616333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_47
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 162
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09006186b0ec24f80800000000000000
+      internalID: -8123704229436718960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_48
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 160
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f5fe1a53da1e310800000000000000
+      internalID: 1432616602342219552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_49
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 127
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c069c181d586ace0800000000000000
+      internalID: -1394279899752472380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_50
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 128
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa31778a476a9660800000000000000
+      internalID: 7393335308079676157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_51
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 191
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee304ac25a0d9bb10800000000000000
+      internalID: 1997857317552653294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 127
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6b4bd3180d6dd40800000000000000
+      internalID: 5608899639441143505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcad614da90f1290800000000000000
+      internalID: -7917598980162343751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_54
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 96
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb95abc1195a7f3b0800000000000000
+      internalID: -5478728379002103365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 95
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639e5e5bee2a96c70800000000000000
+      internalID: 8964875679395342646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_56
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 127
+        width: 27
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4faaa75f1722ffe10800000000000000
+      internalID: 2233541813044161268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_57
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 127
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec7d1b9011a8e310800000000000000
+      internalID: 1434573574011452650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_58
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 127
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c408b57b2514c10800000000000000
+      internalID: 2035999454015802372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_59
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 136
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38d6e9ea3dc641a0800000000000000
+      internalID: -6825542532317390790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0f0882d94ba6a10800000000000000
+      internalID: 1903532379599859883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 95
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcca52e38fca41d70800000000000000
+      internalID: 9013018936469728463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_62
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 32
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd304e761f64e2f60800000000000000
+      internalID: 8011418789782750171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_63
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 32
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1234ff5d5f3871450800000000000000
+      internalID: 6059456915530793761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_64
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5563e45ed6027a00800000000000000
+      internalID: 752671639700989279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_65
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467263eb4b88d1c00800000000000000
+      internalID: 873004212646455140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_66
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8406f8a16cfb5c640800000000000000
+      internalID: 5099693010636988488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_67
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b8eb6ee8d4f00b0800000000000000
+      internalID: -5760300122231632998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_68
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 31
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe48230dcf704f300800000000000000
+      internalID: 284861458837308655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Containers_69
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 31
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8db0284ca61ff70800000000000000
+      internalID: 9219267304432064678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SciFi_Containers_0: 6243387081277830766
+      SciFi_Containers_1: 5881808376925187222
+      SciFi_Containers_10: 7361386555999359948
+      SciFi_Containers_11: -4345094936049233947
+      SciFi_Containers_12: 1419942634557828433
+      SciFi_Containers_13: 262403098384432958
+      SciFi_Containers_14: 3101281943498799090
+      SciFi_Containers_15: 73299183919430757
+      SciFi_Containers_16: 8659082890606175906
+      SciFi_Containers_17: 9065681222635138866
+      SciFi_Containers_18: 6769456986783096131
+      SciFi_Containers_19: -5899739984992851741
+      SciFi_Containers_2: -5367757631167286706
+      SciFi_Containers_20: 8780593384263466218
+      SciFi_Containers_21: 694962330223004961
+      SciFi_Containers_22: -3708676713465803504
+      SciFi_Containers_23: 112245748527704016
+      SciFi_Containers_24: -7877233523213339472
+      SciFi_Containers_25: 9043386900522274512
+      SciFi_Containers_26: -6168636310212034746
+      SciFi_Containers_27: -3047491317658254216
+      SciFi_Containers_28: 3616385294626102702
+      SciFi_Containers_29: 4732483672935493169
+      SciFi_Containers_3: -1921939876762580420
+      SciFi_Containers_30: 4248586738088637638
+      SciFi_Containers_31: -3682465828662476626
+      SciFi_Containers_32: 9168790708339682677
+      SciFi_Containers_33: -8144024201074521162
+      SciFi_Containers_34: -3214722154996213157
+      SciFi_Containers_35: -5860553943897064288
+      SciFi_Containers_36: -7672810840758892253
+      SciFi_Containers_37: 305803580858369061
+      SciFi_Containers_38: 1223681525288891868
+      SciFi_Containers_39: -2802337663082388932
+      SciFi_Containers_4: 841864917108107308
+      SciFi_Containers_40: 6352072916011688009
+      SciFi_Containers_41: 1830095519615269111
+      SciFi_Containers_42: -8830420109802142242
+      SciFi_Containers_43: -8087858904542586292
+      SciFi_Containers_44: 1453947983908288056
+      SciFi_Containers_45: -5184848821488840512
+      SciFi_Containers_46: -6779583429800616333
+      SciFi_Containers_47: -8123704229436718960
+      SciFi_Containers_48: 1432616602342219552
+      SciFi_Containers_49: -1394279899752472380
+      SciFi_Containers_5: -544139525175475284
+      SciFi_Containers_50: 7393335308079676157
+      SciFi_Containers_51: 1997857317552653294
+      SciFi_Containers_52: 5608899639441143505
+      SciFi_Containers_53: -7917598980162343751
+      SciFi_Containers_54: -5478728379002103365
+      SciFi_Containers_55: 8964875679395342646
+      SciFi_Containers_56: 2233541813044161268
+      SciFi_Containers_57: 1434573574011452650
+      SciFi_Containers_58: 2035999454015802372
+      SciFi_Containers_59: -6825542532317390790
+      SciFi_Containers_6: 6971056156299077029
+      SciFi_Containers_60: 1903532379599859883
+      SciFi_Containers_61: 9013018936469728463
+      SciFi_Containers_62: 8011418789782750171
+      SciFi_Containers_63: 6059456915530793761
+      SciFi_Containers_64: 752671639700989279
+      SciFi_Containers_65: 873004212646455140
+      SciFi_Containers_66: 5099693010636988488
+      SciFi_Containers_67: -5760300122231632998
+      SciFi_Containers_68: 284861458837308655
+      SciFi_Containers_69: 9219267304432064678
+      SciFi_Containers_7: -8245208222595898954
+      SciFi_Containers_8: 4681518621601276317
+      SciFi_Containers_9: -8303837296753795894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

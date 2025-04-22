@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: c1cedf3e29c791b46bf60590e19a167d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5913266039705600095
+    second: SciFi_Armory_0
+  - first:
+      213: -5380930628521772516
+    second: SciFi_Armory_1
+  - first:
+      213: 3543633643103668864
+    second: SciFi_Armory_2
+  - first:
+      213: 6177135590830263765
+    second: SciFi_Armory_3
+  - first:
+      213: 95884668808232919
+    second: SciFi_Armory_4
+  - first:
+      213: 2202819686373073690
+    second: SciFi_Armory_5
+  - first:
+      213: -879010012276715232
+    second: SciFi_Armory_6
+  - first:
+      213: -4146855008273523322
+    second: SciFi_Armory_7
+  - first:
+      213: -1278124734537232576
+    second: SciFi_Armory_8
+  - first:
+      213: -365012391603942622
+    second: SciFi_Armory_9
+  - first:
+      213: 5896299431536769796
+    second: SciFi_Armory_10
+  - first:
+      213: 5991399906168940664
+    second: SciFi_Armory_11
+  - first:
+      213: 5607569320270405304
+    second: SciFi_Armory_12
+  - first:
+      213: -4900846068238765084
+    second: SciFi_Armory_13
+  - first:
+      213: 613223344780113538
+    second: SciFi_Armory_14
+  - first:
+      213: 4441759550426008009
+    second: SciFi_Armory_15
+  - first:
+      213: -7801381225545464024
+    second: SciFi_Armory_16
+  - first:
+      213: -8115197771173578985
+    second: SciFi_Armory_17
+  - first:
+      213: 4821730821734397084
+    second: SciFi_Armory_18
+  - first:
+      213: 6199362189368198092
+    second: SciFi_Armory_19
+  - first:
+      213: -3643232357138038
+    second: SciFi_Armory_20
+  - first:
+      213: 5149741816001912551
+    second: SciFi_Armory_21
+  - first:
+      213: -3194450241447759585
+    second: SciFi_Armory_22
+  - first:
+      213: -8453698944720340931
+    second: SciFi_Armory_23
+  - first:
+      213: -8867150215222846675
+    second: SciFi_Armory_24
+  - first:
+      213: -6281581941357323121
+    second: SciFi_Armory_25
+  - first:
+      213: -3895672715527899869
+    second: SciFi_Armory_26
+  - first:
+      213: -4724973581161511376
+    second: SciFi_Armory_27
+  - first:
+      213: -742281989854607791
+    second: SciFi_Armory_28
+  - first:
+      213: -2446707247845397847
+    second: SciFi_Armory_29
+  - first:
+      213: -4705086772346107747
+    second: SciFi_Armory_30
+  - first:
+      213: 1579734205928468707
+    second: SciFi_Armory_31
+  - first:
+      213: -8408291971606611766
+    second: SciFi_Armory_32
+  - first:
+      213: -6144103464428467500
+    second: SciFi_Armory_33
+  - first:
+      213: 7301027041332989460
+    second: SciFi_Armory_34
+  - first:
+      213: -7012020090410844213
+    second: SciFi_Armory_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SciFi_Armory_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 129
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50880f1224201250800000000000000
+      internalID: 5913266039705600095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 293
+        width: 194
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ab0fd4a181355b0800000000000000
+      internalID: -5380930628521772516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 483
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a415ff5048d2130800000000000000
+      internalID: 3543633643103668864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_3
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 482
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd4cdc871899b550800000000000000
+      internalID: 6177135590830263765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 483
+        width: 66
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df78b72996a45100800000000000000
+      internalID: 95884668808232919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 480
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13218e65dcf19e10800000000000000
+      internalID: 2202819686373073690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_6
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 480
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0211c301d012dc3f0800000000000000
+      internalID: -879010012276715232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 480
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d9ec847596376c0800000000000000
+      internalID: -4146855008273523322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 450
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f84436350334ee0800000000000000
+      internalID: -1278124734537232576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_9
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 447
+        width: 62
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bc4dbe9273feaf0800000000000000
+      internalID: -365012391603942622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 445
+        width: 65
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b3612d71dd3d150800000000000000
+      internalID: 5896299431536769796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_11
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 417
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878228a887ab52350800000000000000
+      internalID: 5991399906168940664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_12
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 416
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be981c269612dd40800000000000000
+      internalID: 5607569320270405304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_13
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 419
+        width: 66
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e332cb7772bcfbb0800000000000000
+      internalID: -4900846068238765084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 418
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2867891126b928800800000000000000
+      internalID: 613223344780113538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_15
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 419
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c947d417cc44ad30800000000000000
+      internalID: 4441759550426008009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_16
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 383
+        width: 62
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82706fddb1debb390800000000000000
+      internalID: -7801381225545464024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 386
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717382f8f96016f80800000000000000
+      internalID: -8115197771173578985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_18
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 386
+        width: 62
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94f700c2aa3ae240800000000000000
+      internalID: 4821730821734397084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_19
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 255
+        width: 25
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3874bc01f880650800000000000000
+      internalID: 6199362189368198092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_20
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 353
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81c48ddf7e03fff0800000000000000
+      internalID: -3643232357138038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_21
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 321
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eed4cba5ee877740800000000000000
+      internalID: 5149741816001912551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_22
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 321
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1178d92e680ba3d0800000000000000
+      internalID: -3194450241447759585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_23
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 319
+        width: 12
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3879d1799d6eaa80800000000000000
+      internalID: -8453698944720340931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_24
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 255
+        width: 22
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b1d930cdd81f480800000000000000
+      internalID: -8867150215222846675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_25
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 255
+        width: 12
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c53ed618653d8a0800000000000000
+      internalID: -6281581941357323121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 320
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32537cd2e4acfe9c0800000000000000
+      internalID: -3895672715527899869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 321
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03643c9df858d6eb0800000000000000
+      internalID: -4724973581161511376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_28
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 289
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156cb878672e2b5f0800000000000000
+      internalID: -742281989854607791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_29
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 255
+        width: 21
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa2dc6a8bc8b0ed0800000000000000
+      internalID: -2446707247845397847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 289
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98cbe8528c24beb0800000000000000
+      internalID: -4705086772346107747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_31
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 257
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e076e7f3e75ce510800000000000000
+      internalID: 1579734205928468707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_32
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 288
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac87e98300fbf4b80800000000000000
+      internalID: -8408291971606611766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 257
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da8e73b372cbbaa0800000000000000
+      internalID: -6144103464428467500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 257
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e8c2e5965725560800000000000000
+      internalID: 7301027041332989460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFi_Armory_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 257
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfb82901ec40be90800000000000000
+      internalID: -7012020090410844213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SciFi_Armory_0: 5913266039705600095
+      SciFi_Armory_1: -5380930628521772516
+      SciFi_Armory_10: 5896299431536769796
+      SciFi_Armory_11: 5991399906168940664
+      SciFi_Armory_12: 5607569320270405304
+      SciFi_Armory_13: -4900846068238765084
+      SciFi_Armory_14: 613223344780113538
+      SciFi_Armory_15: 4441759550426008009
+      SciFi_Armory_16: -7801381225545464024
+      SciFi_Armory_17: -8115197771173578985
+      SciFi_Armory_18: 4821730821734397084
+      SciFi_Armory_19: 6199362189368198092
+      SciFi_Armory_2: 3543633643103668864
+      SciFi_Armory_20: -3643232357138038
+      SciFi_Armory_21: 5149741816001912551
+      SciFi_Armory_22: -3194450241447759585
+      SciFi_Armory_23: -8453698944720340931
+      SciFi_Armory_24: -8867150215222846675
+      SciFi_Armory_25: -6281581941357323121
+      SciFi_Armory_26: -3895672715527899869
+      SciFi_Armory_27: -4724973581161511376
+      SciFi_Armory_28: -742281989854607791
+      SciFi_Armory_29: -2446707247845397847
+      SciFi_Armory_3: 6177135590830263765
+      SciFi_Armory_30: -4705086772346107747
+      SciFi_Armory_31: 1579734205928468707
+      SciFi_Armory_32: -8408291971606611766
+      SciFi_Armory_33: -6144103464428467500
+      SciFi_Armory_34: 7301027041332989460
+      SciFi_Armory_35: -7012020090410844213
+      SciFi_Armory_4: 95884668808232919
+      SciFi_Armory_5: 2202819686373073690
+      SciFi_Armory_6: -879010012276715232
+      SciFi_Armory_7: -4146855008273523322
+      SciFi_Armory_8: -1278124734537232576
+      SciFi_Armory_9: -365012391603942622
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
