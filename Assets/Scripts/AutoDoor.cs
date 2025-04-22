@@ -39,7 +39,7 @@ public class AutoDoor : MonoBehaviour
         loadedClip = Resources.Load<AudioClip>(soundFileName);
         if (loadedClip != null)
         {
-            Debug.Log($"Loaded audio clip: {loadedClip.name}");
+            //Debug.Log($"Loaded audio clip: {loadedClip.name}");
         }
         else
         {
@@ -84,7 +84,7 @@ public class AutoDoor : MonoBehaviour
 
     public void PlaySoundEffect()
     {
-        Debug.LogWarning("sound effect called.");
+        //Debug.LogWarning("sound effect called.");
         if (audioSource != null && loadedClip != null)
         {
             audioSource.PlayOneShot(loadedClip);

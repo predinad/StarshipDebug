@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: cfbaa60cec0c11845a325d08dc0767b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5070336557174071388
+    second: AnswerCheckMark_0
+  - first:
+      213: -2436640823703780965
+    second: AnswerCheckMark_1
+  - first:
+      213: 3103934321348315806
+    second: AnswerCheckMark_2
+  - first:
+      213: 7642786197456825779
+    second: AnswerCheckMark_3
+  - first:
+      213: 7285000274496166023
+    second: AnswerCheckMark_4
+  - first:
+      213: -2568055896321288661
+    second: AnswerCheckMark_5
+  - first:
+      213: 2371581555542796294
+    second: AnswerCheckMark_6
+  - first:
+      213: -3884703094104455237
+    second: AnswerCheckMark_7
+  - first:
+      213: 6447616403085790885
+    second: AnswerCheckMark_8
+  - first:
+      213: -831392890521824885
+    second: AnswerCheckMark_9
+  - first:
+      213: 3003621070643536713
+    second: AnswerCheckMark_10
+  - first:
+      213: 3681947510373793319
+    second: AnswerCheckMark_11
+  - first:
+      213: 6216923122251202275
+    second: AnswerCheckMark_12
+  - first:
+      213: 3443674365776563440
+    second: AnswerCheckMark_13
+  - first:
+      213: -3099219652313131210
+    second: AnswerCheckMark_14
+  - first:
+      213: -665047218706886007
+    second: AnswerCheckMark_15
+  - first:
+      213: 1584804144049435458
+    second: AnswerCheckMark_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnswerCheckMark_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1040
+        width: 442
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af56f9d3cb82a9b0800000000000000
+      internalID: -5070336557174071388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_1
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1040
+        width: 477
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91cbe9a4105f2ed0800000000000000
+      internalID: -2436640823703780965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_2
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1028
+        width: 416
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a0c16e1d3631b20800000000000000
+      internalID: 3103934321348315806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_3
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1040
+        width: 587
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd2ca9ad81a01a60800000000000000
+      internalID: 7642786197456825779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_4
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 1040
+        width: 442
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78897fde625891560800000000000000
+      internalID: 7285000274496166023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_5
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 1040
+        width: 456
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b261c68b4ce6c5cd0800000000000000
+      internalID: -2568055896321288661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_6
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 901
+        width: 1473
+        height: 1603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6082ffd0cdc89e020800000000000000
+      internalID: 2371581555542796294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 295
+        width: 456
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb70b023e13c61ac0800000000000000
+      internalID: -3884703094104455237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_8
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 295
+        width: 442
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae09e925f88a7950800000000000000
+      internalID: 6447616403085790885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_9
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 283
+        width: 460
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8159ab229c4674f0800000000000000
+      internalID: -831392890521824885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_10
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 295
+        width: 207
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943269b23710fa920800000000000000
+      internalID: 3003621070643536713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_11
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 283
+        width: 416
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72eb67db0c7e81330800000000000000
+      internalID: 3681947510373793319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_12
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 295
+        width: 399
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eef1b914a2f64650800000000000000
+      internalID: 6216923122251202275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_13
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 295
+        width: 442
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc0b3e17936acf20800000000000000
+      internalID: 3443674365776563440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_14
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 295
+        width: 456
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63757f6852c5df4d0800000000000000
+      internalID: -3099219652313131210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_15
+      rect:
+        serializedVersion: 2
+        x: 3418
+        y: 295
+        width: 442
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9825d12041745c6f0800000000000000
+      internalID: -665047218706886007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnswerCheckMark_16
+      rect:
+        serializedVersion: 2
+        x: 3847
+        y: 295
+        width: 454
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24332ace8fa5ef510800000000000000
+      internalID: 1584804144049435458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AnswerCheckMark_0: -5070336557174071388
+      AnswerCheckMark_1: -2436640823703780965
+      AnswerCheckMark_10: 3003621070643536713
+      AnswerCheckMark_11: 3681947510373793319
+      AnswerCheckMark_12: 6216923122251202275
+      AnswerCheckMark_13: 3443674365776563440
+      AnswerCheckMark_14: -3099219652313131210
+      AnswerCheckMark_15: -665047218706886007
+      AnswerCheckMark_16: 1584804144049435458
+      AnswerCheckMark_2: 3103934321348315806
+      AnswerCheckMark_3: 7642786197456825779
+      AnswerCheckMark_4: 7285000274496166023
+      AnswerCheckMark_5: -2568055896321288661
+      AnswerCheckMark_6: 2371581555542796294
+      AnswerCheckMark_7: -3884703094104455237
+      AnswerCheckMark_8: 6447616403085790885
+      AnswerCheckMark_9: -831392890521824885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

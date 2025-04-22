@@ -11,6 +11,7 @@ public class PlayerCharacterController : MonoBehaviour
     private float moveX = 0f;
     private float moveY = 0f;
     private bool isMovementAllowed = true; // Toggle for allowing/disabling movement
+    private InteractablePuzzle currentInteractable = null; // Reference to the interactable puzzle in range
 
     void Start()
     {
@@ -24,12 +25,11 @@ public class PlayerCharacterController : MonoBehaviour
         {
             Move();
         }
-        else
-        {
-           // rb.linearVelocity = Vector2.zero; // Ensure velocity is zeroed when movement is disabled
-           // animator.SetBool("IsMoving", false); // Update animator state
-           return;
-        }
+    }
+
+    void Update()
+    {
+        HandleInteractionInput(); // Check for interact input every frame
     }
 
     private void Move()
@@ -43,13 +43,13 @@ public class PlayerCharacterController : MonoBehaviour
             return;
         }
 
-        moveY=0;
-        moveX=0;
+        moveY = 0;
+        moveX = 0;
 
         // Handle input for movement directions
         if (Input.GetKey(InputManager.Instance.GetKey(GameAction.MoveUp)))
         {
-                moveY = 1; // Move up
+            moveY = 1; // Move up
         }
         if (Input.GetKey(InputManager.Instance.GetKey(GameAction.MoveDown)))
         {
@@ -95,7 +95,7 @@ public class PlayerCharacterController : MonoBehaviour
     {
         Debug.Log("Movement disallowed.");
         rb.linearVelocity = Vector2.zero; // Ensure any existing velocity is stopped
-        speed=0;
+        speed = 0;
         isMovementAllowed = false;
     }
 
@@ -105,5 +105,35 @@ public class PlayerCharacterController : MonoBehaviour
         speed = 4f; // Restore speed
     }
 
+    // Interactions handled in Update
+    private void HandleInteractionInput()
+    {
+        if (Input.GetKeyDown(InputManager.Instance.GetKey(GameAction.Interact)) && currentInteractable != null && isMovementAllowed)
+        {
+            Debug.Log("Interact key pressed while near an interactable.");
+            currentInteractable.ActivatePuzzle();
+            currentInteractable = null; // Optionally clear the reference after interaction
+            DisableMovement();
+        }
+    }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        InteractablePuzzle puzzle = other.GetComponent<InteractablePuzzle>();
+        if (puzzle != null)
+        {
+            currentInteractable = puzzle;
+            Debug.Log($"Player entered interaction range of {puzzle.gameObject.name}");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        InteractablePuzzle puzzle = other.GetComponent<InteractablePuzzle>();
+        if (puzzle != null && puzzle == currentInteractable)
+        {
+            currentInteractable = null;
+            Debug.Log($"Player exited interaction range of {puzzle.gameObject.name}");
+        }
+    }
 }
