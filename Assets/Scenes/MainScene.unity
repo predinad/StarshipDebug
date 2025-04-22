@@ -5262,7 +5262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &363588954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7460,7 +7460,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5.0625
+  orthographic size: 4.65625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -27785,6 +27785,10 @@ PrefabInstance:
       propertyPath: taskUI
       value: 
       objectReference: {fileID: 240914855}
+    - target: {fileID: 4891774597161072061, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
+      propertyPath: startState
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4891774597161072061, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
       propertyPath: taskUI.taskUIObject
       value: 

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using TMPro;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,6 +25,10 @@ public class GameManager : MonoBehaviour
     }
     public TaskUI taskUI;
 
+    public enum GameState { MainMenu, InGame, Paused, Settings };
+    [SerializeField] private GameState startState;
+    private GameState gameState = GameState.MainMenu;
+
     // Scene names for each scene
     [SerializeField] private string mainMenuSceneName = "MainMenuScene";
     [SerializeField] private string gameSceneName = "MainScene";
@@ -37,6 +42,9 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+        // Set the initial game state based on the serialized start state
+        gameState = startState;
+        
         // Build dictionary from the serialized list
         foreach (var entry in uiPanelEntries)
         {
@@ -50,11 +58,12 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         // Pause and resume the game using the Escape key
-        if (IsPanelActive("PausePanel") && Input.GetKeyDown(KeyCode.Escape))
+        if (gameState == GameState.Paused && Input.GetKeyDown(KeyCode.Escape))
         {
+            HidePanel("PausePanel");
             ResumeGame();
         }
-        else if (!IsPanelActive("PausePanel") && Input.GetKeyDown(KeyCode.Escape))
+        else if (gameState == GameState.InGame && Input.GetKeyDown(KeyCode.Escape))
         {
             PauseGame();
         }
@@ -64,24 +73,28 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         LoadScene(gameSceneName);
+        gameState = GameState.InGame;
     } 
 
     public void ReturnToMainMenu()
     {
         Time.timeScale = 1;
         LoadScene(mainMenuSceneName);
+        gameState = GameState.MainMenu;
     }
 
     public void OpenSettings()
     {
         DisableAllPanels();
         ShowPanel("SettingsPanel");
+        gameState = GameState.Settings;
     }
     public void PauseGame()
     {
         Time.timeScale = 0;
         DisableAllPanels();
         ShowPanel("PausePanel");
+        gameState = GameState.Paused;
     }
 
     public void ResumeGame()
@@ -89,12 +102,14 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         DisableAllPanels();
         ShowPanel("GamePanel");
+        gameState = GameState.InGame;
     }
     
     public void ShowMainMenu() 
     {
         DisableAllPanels();
         ShowPanel("MainMenuPanel");
+        gameState = GameState.MainMenu;
     }
 
     public void ExitGame()
