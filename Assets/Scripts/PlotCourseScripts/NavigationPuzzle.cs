@@ -1,24 +1,31 @@
 using System.Collections.Generic;
+using System.Globalization;
 using Microsoft.Unity.VisualStudio.Editor;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEditor.MemoryProfiler;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class NavigationPuzzle : MonoBehaviour
 {
-    [SerializeField] private List<PlanetNode> planetNodes; // List of planet nodes in the puzzle
-    [SerializeField] private List<Connection> connections; // List of connections between the planets
-    public Dictionary<PlanetNode, List<Connection>> nodeConnections = new();
-
-    [SerializeField] private List<Sprite> randomPlanetImages; // List of random planet images to choose from
-    [SerializeField] private List<string> randomPlanetNames; // List of random planet names to choose from
+    [SerializeField] private List<PlanetNode> planetNodes;
+    [SerializeField] private List<Connection> connections;
+    [SerializeField] private CreatePlanetAnswers createPlanetAnswers;
+    [SerializeField] private List<Sprite> randomPlanetImages;
+    [SerializeField] private List<string> randomPlanetNames;
     [SerializeField] private int minWeight = 1;
     [SerializeField] private int maxWeight = 10;
+
+    private Dictionary<int, List<Connection>> nodeConnections = new(); // planetNumber -> connections
+    private Dictionary<int, PlanetNode> nodeByNumber = new(); // planetNumber -> PlanetNode
 
     void Start()
     {
         InitializePuzzle();
+        createPlanetAnswers.CreatePlanets(planetNodes); // Create planets based on the initialized nodes
+
+
     }
 
     public void InitializePuzzle()
@@ -34,11 +41,14 @@ public class NavigationPuzzle : MonoBehaviour
             var img = node.planetGameObject.GetComponent<UnityEngine.UI.Image>();
             var name = node.planetGameObject.GetComponentInChildren<TextMeshProUGUI>();
 
-            img.sprite = randomPlanetImages[Random.Range(0, randomPlanetImages.Count)];
+            node.planetNumber = i; // Assign a unique number to each planet node
+            node.planetSprite = randomPlanetImages[Random.Range(0, randomPlanetImages.Count)];
+            img.sprite = node.planetSprite;
 
             if (i < shuffledNames.Count)
             {
-                name.text = shuffledNames[i];
+                node.planetName = shuffledNames[i];
+                name.text = node.planetName;
             }
             else
             {
@@ -56,33 +66,118 @@ public class NavigationPuzzle : MonoBehaviour
         }
 
         // Cache connections for each node
+        CachePlanetLookup();
         CacheConnections();
     }
 
-    public List<Connection> GetConnectionsForNode(PlanetNode node)
+    private void CachePlanetLookup()
     {
-        List<Connection> result = new List<Connection>();
-        foreach (var conn in connections)
-        {
-            if (conn.nodeA == node || conn.nodeB == node)
-            {
-                result.Add(conn);
-            }
-        }
-        return result;
+        nodeByNumber.Clear();
+        foreach (var node in planetNodes)
+            nodeByNumber[node.planetNumber] = node;
     }
 
     private void CacheConnections()
     {
         nodeConnections.Clear();
         foreach (var node in planetNodes)
-            nodeConnections[node] = new List<Connection>();
+            nodeConnections[node.planetNumber] = new List<Connection>();
 
         foreach (var conn in connections)
         {
-            nodeConnections[conn.nodeA].Add(conn);
-            nodeConnections[conn.nodeB].Add(conn);
+            nodeConnections[conn.nodeA.planetNumber].Add(conn);
+            nodeConnections[conn.nodeB.planetNumber].Add(conn);
         }
+    }
+
+    public int[] GetShortestPath(int startPlanetNumber, int endPlanetNumber)
+    {
+        Dictionary<int, int> distances = new();
+        Dictionary<int, int?> previous = new();
+        HashSet<int> visited = new();
+        List<(int, int)> queue = new(); // (distance, planetNumber)
+
+        foreach (var node in planetNodes)
+        {
+            distances[node.planetNumber] = int.MaxValue;
+            previous[node.planetNumber] = null;
+        }
+
+        distances[startPlanetNumber] = 0;
+        queue.Add((0, startPlanetNumber));
+
+        while (queue.Count > 0)
+        {
+            queue.Sort((a, b) => a.Item1.CompareTo(b.Item1));
+            var (currentDist, currentPlanet) = queue[0];
+            queue.RemoveAt(0);
+
+            if (currentPlanet == endPlanetNumber)
+                break;
+
+            if (visited.Contains(currentPlanet))
+                continue;
+
+            visited.Add(currentPlanet);
+
+            foreach (var connection in nodeConnections[currentPlanet])
+            {
+                int neighbor = (connection.nodeA.planetNumber == currentPlanet)
+                    ? connection.nodeB.planetNumber
+                    : connection.nodeA.planetNumber;
+
+                if (visited.Contains(neighbor))
+                    continue;
+
+                int tentativeDist = currentDist + connection.weight;
+
+                if (tentativeDist < distances[neighbor])
+                {
+                    distances[neighbor] = tentativeDist;
+                    previous[neighbor] = currentPlanet;
+                    queue.Add((tentativeDist, neighbor));
+                }
+            }
+        }
+
+        // Reconstruct path
+        List<int> path = new();
+        int? current = endPlanetNumber;
+        while (current != null)
+        {
+            path.Insert(0, current.Value);
+            current = previous[current.Value];
+        }
+
+        return path.ToArray();
+    }
+
+    public void CheckAnswer()
+    {
+        int[] playerAnswers = createPlanetAnswers.GetPlayerAnswer();
+        int start = planetNodes[0].planetNumber;
+        int end = planetNodes[planetNodes.Count - 1].planetNumber;
+        int[] correctAnswers = GetShortestPath(start, end);
+
+        Debug.Log($"Player answers: {string.Join(", ", playerAnswers)}");
+        Debug.Log($"Correct answers: {string.Join(", ", correctAnswers)}");
+
+        if (playerAnswers.Length != correctAnswers.Length)
+        {
+            Debug.Log("Incorrect answer length.");
+            return;
+        }
+
+        for (int i = 0; i < playerAnswers.Length; i++)
+        {
+            if (playerAnswers[i] != correctAnswers[i])
+            {
+                Debug.Log($"Incorrect answer at index {i}. Expected {correctAnswers[i]}, got {playerAnswers[i]}.");
+                return;
+            }
+        }
+
+        Debug.Log("Correct answer!");
     }
 
     private void ShuffleList<T>(List<T> list)
@@ -99,6 +194,9 @@ public class NavigationPuzzle : MonoBehaviour
 public class PlanetNode
 {
     [SerializeField] public GameObject planetGameObject; // Reference to the planet GameObject
+    public string planetName;
+    public Sprite planetSprite;
+    public int planetNumber; // Unique number for the planet
 }
 
 [System.Serializable]
