@@ -7,6 +7,7 @@ public class StartPuzzleInteractable : MonoBehaviour
     [SerializeField] private GameObject toolTipBar; // Array of GameObjects to deactivate when the puzzle starts
     [SerializeField] private string toolTipText;
     private bool playerInTrigger = false;
+    private PlayerCharacterController playerCharacterController;
 
     private void Update()
     {
@@ -15,6 +16,12 @@ public class StartPuzzleInteractable : MonoBehaviour
         {
             // Call the method to start the puzzle
             navigationUIHandler.ShowFirstPanel();
+
+            //Pause player movement
+            if (playerCharacterController != null)
+            {
+                playerCharacterController.DisableMovement(); // Disable player movement
+            }
         }
     }
 
@@ -23,6 +30,7 @@ public class StartPuzzleInteractable : MonoBehaviour
         // Check if the entering object has the Player tag
         if (other.CompareTag("Player") && toolTipBar != null)
         {
+            playerCharacterController = other.GetComponent<PlayerCharacterController>(); // Get the PlayerCharacterController component from the player object
             toolTipBar.SetActive(true); // Activate the tooltip bar when the player enters the trigger area
             toolTipBar.GetComponent<TMPro.TextMeshProUGUI>().text = toolTipText; // Set the tooltip text
             playerInTrigger = true; // Set the flag to indicate the player is in the trigger area

@@ -196,6 +196,63 @@ public class NavigationPuzzle : MonoBehaviour
         return path.ToArray();
     }
 
+    public List<DijkstraStep> GetDijkstraSteps(int start, int end)
+    {
+        List<DijkstraStep> steps = new();
+        Dictionary<int, int> distances = new();
+        Dictionary<int, int?> previous = new();
+        HashSet<int> visited = new();
+        List<(int, int)> queue = new();
+
+        foreach (var node in planetNodes)
+        {
+            distances[node.planetNumber] = int.MaxValue;
+            previous[node.planetNumber] = null;
+        }
+
+        distances[start] = 0;
+        queue.Add((0, start));
+
+        while (queue.Count > 0)
+        {
+            queue.Sort((a, b) => a.Item1.CompareTo(b.Item1));
+            var (currentDist, current) = queue[0];
+            queue.RemoveAt(0);
+
+            if (visited.Contains(current))
+                continue;
+
+            visited.Add(current);
+
+            // Record step
+            DijkstraStep step = new()
+            {
+                currentNode = current,
+                distances = new Dictionary<int, int>(distances),
+                previous = new Dictionary<int, int?>(previous),
+                visited = new List<int>(visited)
+            };
+            steps.Add(step);
+
+            foreach (var conn in nodeConnections[current])
+            {
+                int neighbor = conn.nodeA.planetNumber == current ? conn.nodeB.planetNumber : conn.nodeA.planetNumber;
+                if (visited.Contains(neighbor)) continue;
+
+                int newDist = currentDist + conn.weight;
+                if (newDist < distances[neighbor])
+                {
+                    distances[neighbor] = newDist;
+                    previous[neighbor] = current;
+                    queue.Add((newDist, neighbor));
+                }
+            }
+        }
+
+        return steps;
+    }
+
+
     public void CheckAnswer()
     {
         bool isCorrect = true;
@@ -230,7 +287,7 @@ public class NavigationPuzzle : MonoBehaviour
             // Increment the attempts counter
             attempts++;
             attemptsText.text = $"Attempts: {attempts}";
-            
+
             Debug.Log("Incorrect answer!");
         }
         else
@@ -249,7 +306,7 @@ public class NavigationPuzzle : MonoBehaviour
                 Debug.LogWarning("TaskManager reference is not set in NavigationPuzzle.");
             }
 
-            if(navigationUIHandler != null)
+            if (navigationUIHandler != null)
             {
                 navigationUIHandler.ShowNextPanel(); // Show the next panel in the UI
             }
@@ -308,4 +365,13 @@ public class Connection
 
     [SerializeField] public TextMeshProUGUI connectionText;
     [SerializeField] public UnityEngine.UI.Image connectionImage;
+}
+
+[System.Serializable]
+public class DijkstraStep
+{
+    public int currentNode;
+    public Dictionary<int, int> distances = new();
+    public Dictionary<int, int?> previous = new();
+    public List<int> visited = new();
 }
