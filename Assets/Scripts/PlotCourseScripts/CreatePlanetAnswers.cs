@@ -11,7 +11,7 @@ public class CreatePlanetAnswers : MonoBehaviour
 
     public void CreatePlanets(List<PlanetNode> planetNodes)
     {
-        ResetAnswers(); // Clear existing planets before creating new ones
+        DestroyExistingAnswers(); // Clear existing planets before creating new ones
 
         // Create new planets based on the provided planet nodes
         for (int i = 0; i < planetNodes.Count; i++)
@@ -43,7 +43,45 @@ public class CreatePlanetAnswers : MonoBehaviour
         return playerAnswers;
     }
 
-    private void ResetAnswers()
+    public void ResetAnswers()
+    {
+        List<Transform> children = new List<Transform>();
+        foreach (Transform child in answerTransform)
+        {
+            children.Add(child);
+        }
+
+        foreach (Transform child in children)
+        {
+            child.SetParent(defaultTransform);
+        }
+    }
+
+    public void DisableDraggingAnswers()
+    {
+        foreach (Transform child in answerTransform)
+        {
+            child.GetComponent<DraggableItem>().enabled = false; // Disable dragging for the answer
+        }
+        foreach (Transform child in defaultTransform)
+        {
+            child.GetComponent<DraggableItem>().enabled = false; // Enable dragging for the answer
+        }
+    }
+
+    public void EnableDraggingAnswers()
+    {
+        foreach (Transform child in answerTransform)
+        {
+            child.GetComponent<DraggableItem>().enabled = true; // Enable dragging for the answer
+        }
+        foreach (Transform child in defaultTransform)
+        {
+            child.GetComponent<DraggableItem>().enabled = true; // Enable dragging for the answer
+        }
+    }
+
+    private void DestroyExistingAnswers()
     {
         // Clear existing planets
         foreach (Transform child in answerTransform)

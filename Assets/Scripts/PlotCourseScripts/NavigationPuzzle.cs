@@ -16,16 +16,80 @@ public class NavigationPuzzle : MonoBehaviour
     [SerializeField] private List<string> randomPlanetNames;
     [SerializeField] private int minWeight = 1;
     [SerializeField] private int maxWeight = 10;
+    [SerializeField] private TaskManager taskManager; // Reference to the TaskManager to update tasks
+    [SerializeField] private NavigationUIHandler navigationUIHandler; // Reference to the NavigationUIHandler for UI management
+    [SerializeField] private string taskName; // Name of the task to be updated
+
+    //UI elements
+    [SerializeField] GameObject retryButton;
+    [SerializeField] GameObject incorrectSubmissionText;
+    [SerializeField] TextMeshProUGUI attemptsText;
+    [SerializeField] TextMeshProUGUI completionAttemptsText;
 
     private Dictionary<int, List<Connection>> nodeConnections = new(); // planetNumber -> connections
     private Dictionary<int, PlanetNode> nodeByNumber = new(); // planetNumber -> PlanetNode
+    private int attempts = 0; // Number of attempts made by the player
 
-    void Start()
+    public void StartPuzzle()
     {
-        InitializePuzzle();
-        createPlanetAnswers.CreatePlanets(planetNodes); // Create planets based on the initialized nodes
+        //Hide the retry button and incorrect submission text at the start of the puzzle
+        retryButton.SetActive(false);
+        incorrectSubmissionText.SetActive(false);
 
+        // Reset the puzzle state
+        foreach (var node in planetNodes)
+        {
+            node.planetGameObject.SetActive(false); // Hide all planets
+        }
 
+        foreach (var conn in connections)
+        {
+            conn.connectionImage.gameObject.SetActive(false); // Hide all connections
+            conn.connectionText.gameObject.SetActive(false); // Hide all connection texts
+        }
+
+        // Reset the attempts counter
+        attempts = 0;
+        attemptsText.text = $"Attempts: {attempts}";
+
+        incorrectSubmissionText.SetActive(false); // Hide incorrect submission text
+        retryButton.SetActive(false); // Hide retry button
+
+        InitializePuzzle(); // Reinitialize the puzzle
+        createPlanetAnswers.CreatePlanets(planetNodes); // Recreate planets based on the initialized nodes
+
+        // Reset the puzzle state
+        foreach (var node in planetNodes)
+        {
+            node.planetGameObject.SetActive(true); // Hide all planets
+        }
+
+        foreach (var conn in connections)
+        {
+            conn.connectionImage.gameObject.SetActive(true); // Hide all connections
+            conn.connectionText.gameObject.SetActive(true); // Hide all connection texts
+        }
+    }
+
+    public void StopSubmissions()
+    {
+        // Disable dragging for the answers
+        createPlanetAnswers.DisableDraggingAnswers();
+
+        // Show the retry button and incorrect submission text
+        retryButton.SetActive(true); // Show retry button
+        incorrectSubmissionText.SetActive(true); // Show incorrect submission text
+    }
+
+    public void RetryPuzzle()
+    {
+        // Reset the answers and enable dragging again
+        createPlanetAnswers.EnableDraggingAnswers();
+        createPlanetAnswers.ResetAnswers();
+
+        // Hide the retry button and incorrect submission text
+        retryButton.SetActive(false); // Hide retry button
+        incorrectSubmissionText.SetActive(false); // Hide incorrect submission text
     }
 
     public void InitializePuzzle()
@@ -68,26 +132,6 @@ public class NavigationPuzzle : MonoBehaviour
         // Cache connections for each node
         CachePlanetLookup();
         CacheConnections();
-    }
-
-    private void CachePlanetLookup()
-    {
-        nodeByNumber.Clear();
-        foreach (var node in planetNodes)
-            nodeByNumber[node.planetNumber] = node;
-    }
-
-    private void CacheConnections()
-    {
-        nodeConnections.Clear();
-        foreach (var node in planetNodes)
-            nodeConnections[node.planetNumber] = new List<Connection>();
-
-        foreach (var conn in connections)
-        {
-            nodeConnections[conn.nodeA.planetNumber].Add(conn);
-            nodeConnections[conn.nodeB.planetNumber].Add(conn);
-        }
     }
 
     public int[] GetShortestPath(int startPlanetNumber, int endPlanetNumber)
@@ -154,6 +198,8 @@ public class NavigationPuzzle : MonoBehaviour
 
     public void CheckAnswer()
     {
+        bool isCorrect = true;
+
         int[] playerAnswers = createPlanetAnswers.GetPlayerAnswer();
         int start = planetNodes[0].planetNumber;
         int end = planetNodes[planetNodes.Count - 1].planetNumber;
@@ -165,19 +211,53 @@ public class NavigationPuzzle : MonoBehaviour
         if (playerAnswers.Length != correctAnswers.Length)
         {
             Debug.Log("Incorrect answer length.");
-            return;
+            isCorrect = false;
         }
 
-        for (int i = 0; i < playerAnswers.Length; i++)
+        for (int i = 0; i < playerAnswers.Length && i < correctAnswers.Length; i++)
         {
             if (playerAnswers[i] != correctAnswers[i])
             {
                 Debug.Log($"Incorrect answer at index {i}. Expected {correctAnswers[i]}, got {playerAnswers[i]}.");
-                return;
+                isCorrect = false;
             }
         }
 
-        Debug.Log("Correct answer!");
+        if (!isCorrect)
+        {
+            StopSubmissions(); // Stop submissions if the answer is incorrect
+
+            // Increment the attempts counter
+            attempts++;
+            attemptsText.text = $"Attempts: {attempts}";
+            
+            Debug.Log("Incorrect answer!");
+        }
+        else
+        {
+            attempts++;
+            completionAttemptsText.text = $"You took {attempts} attempts for this puzzle!"; // Update the attempts text for completion
+
+            // Mark the task as completed in the TaskManager
+            if (taskManager != null)
+            {
+                taskManager.CompleteTask(taskName); // Mark the task as completed
+                Debug.Log($"Task '{taskName}' marked as completed.");
+            }
+            else
+            {
+                Debug.LogWarning("TaskManager reference is not set in NavigationPuzzle.");
+            }
+
+            if(navigationUIHandler != null)
+            {
+                navigationUIHandler.ShowNextPanel(); // Show the next panel in the UI
+            }
+            else
+            {
+                Debug.LogWarning("NavigationUIHandler reference is not set in NavigationPuzzle.");
+            }
+        }
     }
 
     private void ShuffleList<T>(List<T> list)
@@ -186,6 +266,26 @@ public class NavigationPuzzle : MonoBehaviour
         {
             int rand = Random.Range(i, list.Count);
             (list[i], list[rand]) = (list[rand], list[i]);
+        }
+    }
+
+    private void CachePlanetLookup()
+    {
+        nodeByNumber.Clear();
+        foreach (var node in planetNodes)
+            nodeByNumber[node.planetNumber] = node;
+    }
+
+    private void CacheConnections()
+    {
+        nodeConnections.Clear();
+        foreach (var node in planetNodes)
+            nodeConnections[node.planetNumber] = new List<Connection>();
+
+        foreach (var conn in connections)
+        {
+            nodeConnections[conn.nodeA.planetNumber].Add(conn);
+            nodeConnections[conn.nodeB.planetNumber].Add(conn);
         }
     }
 }
