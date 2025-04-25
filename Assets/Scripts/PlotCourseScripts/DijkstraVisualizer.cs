@@ -52,7 +52,7 @@ public class DijkstraVisualizer : MonoBehaviour
         }
         else
         {
-            string currentNodeName = puzzle.getPlanetName(steps[currentStep - 1].currentNode);
+            string currentNodeName = puzzle.GetPlanetName(steps[currentStep - 1].currentNode);
             currentNodeText.text = $"Current Node: {currentNodeName}";
         }
 
@@ -64,7 +64,7 @@ public class DijkstraVisualizer : MonoBehaviour
             if (texts.Length >= 3)
             {
                 // Column 0: Node Name
-                texts[0].text = puzzle.getPlanetName(kvp.Key);
+                texts[0].text = puzzle.GetPlanetName(kvp.Key);
 
                 // Column 1: Distance
                 texts[1].text = kvp.Value == int.MaxValue ? "∞" : kvp.Value.ToString();
@@ -72,7 +72,7 @@ public class DijkstraVisualizer : MonoBehaviour
                 // Column 2: Previous Node Name
                 if (step.previous[kvp.Key].HasValue)
                 {
-                    texts[2].text = puzzle.getPlanetName(step.previous[kvp.Key].Value);
+                    texts[2].text = puzzle.GetPlanetName(step.previous[kvp.Key].Value);
                 }
                 else
                 {

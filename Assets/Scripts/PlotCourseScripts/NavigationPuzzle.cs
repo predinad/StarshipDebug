@@ -331,7 +331,7 @@ public class NavigationPuzzle : MonoBehaviour
         }
     }
 
-    public string getPlanetName(int planetNumber)
+    public string GetPlanetName(int planetNumber)
     {
         if (nodeByNumber.TryGetValue(planetNumber, out var node))
         {

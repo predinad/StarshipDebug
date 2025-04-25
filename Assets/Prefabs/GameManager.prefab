@@ -46,9 +46,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ffbc3fab0e3540498d2e9044176296e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  taskUI:
+    taskUIObject: {fileID: 0}
+    showTaskButtonText: {fileID: 0}
+  startState: 1
   mainMenuSceneName: MainMenuScene
-  gameSceneName: MainScene
-  uiPanelEntries: []
+  gameSceneName: MainSceneEngines
+  uiPanelEntries:
+  - panelName: GamePanel
+    panelObject: {fileID: 0}
+  - panelName: PausePanel
+    panelObject: {fileID: 0}
+  - panelName: SettingsPanel
+    panelObject: {fileID: 0}
 --- !u!114 &551621327646830286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,3 +83,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5edb4d210f240334092b251c19014bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tasks:
+  - taskName: Fix Lights
+    isCompleted: 0
+    checkMark: {fileID: 0}
+    taskText: {fileID: 0}
+  - taskName: Fix Reactor
+    isCompleted: 0
+    checkMark: {fileID: 0}
+    taskText: {fileID: 0}
+  - taskName: Tune Engines
+    isCompleted: 0
+    checkMark: {fileID: 0}
+    taskText: {fileID: 0}
+  - taskName: Plot Course
+    isCompleted: 0
+    checkMark: {fileID: 0}
+    taskText: {fileID: 0}
