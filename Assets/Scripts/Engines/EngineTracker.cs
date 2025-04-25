@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using TMPro;
 
 public class EngineTracker : MonoBehaviour
@@ -9,8 +10,17 @@ public class EngineTracker : MonoBehaviour
 
     [Header("UI Components")]
     [SerializeField] private TextMeshProUGUI statusText;
-    [SerializeField] private GameObject solvedScreen;    [Header("Engine Tracker")]
+    [SerializeField] private TextMeshProUGUI reviewText;
+    [SerializeField] private GameObject solvedScreen;   
+     
+    [Header("Engine Tracker")]
     [SerializeField] private TaskManager taskManager; // Reference to the the global quest tracker
+    [Header("Sound Effects")]
+    [SerializeField] private AudioSource enginePuzzleAudioSource;
+    private AudioClip successSound;
+    private AudioClip failureSound;    
+    private AudioClip puzzleCompleteSound;
+    private AudioClip enginePowerUpSound;
     private bool[] answerArray;
     private bool[] correctArray;
     private int answeredCount = 0;
@@ -34,10 +44,27 @@ public class EngineTracker : MonoBehaviour
         {
             Debug.LogWarning("StatusText is not assigned to EngineTracker. Text updates will not be displayed.");
         }
+        LoadAudioClips(); // Load audio clips in Awake
         answerArray = new bool[size];
         correctArray = new bool[size];
         Reset();
 
+    }
+        private void LoadAudioClips()
+    {
+        enginePowerUpSound = Resources.Load<AudioClip>("enginePowerUp"); // Load from Resources folder
+        puzzleCompleteSound = Resources.Load<AudioClip>("transferOfDataIsComplete"); // Load from Resources folder
+        successSound = Resources.Load<AudioClip>("engineFeedback2"); // Load from Resources folder
+        failureSound = Resources.Load<AudioClip>("error"); // Load from Resources folder
+
+        if (successSound == null)
+        {
+            Debug.LogError("Failed to load successSound from Resources folder.  Make sure the file is in a folder named Resources.");
+        }
+        if (failureSound == null)
+        {
+            Debug.LogError("Failed to load failureSound from Resources folder. Make sure the file is in a folder named Resources.");
+        }
     }
 
     public void RegisterAnswer(int index, bool isCorrect)
@@ -130,4 +157,48 @@ public class EngineTracker : MonoBehaviour
         Debug.Log("Puzzle solved! Trigger success actions here.");
         // Implement additional logic for when the puzzle is solved
     }
+    private void UpdateReviewText()
+    {
+        if (reviewText != null)
+        {
+            reviewText.gameObject.SetActive(true); // Activate reviewText here
+            StartCoroutine(ShowTextWithDelays());
+        }
+    }
+
+    private IEnumerator ShowTextWithDelays()
+    {
+
+        reviewText.text = "All Engine Alerts Addressed";
+        PlayEngineSound(); // Play sound for line 1
+        yield return new WaitForSeconds(0.8f);
+        reviewText.text = reviewText.text+"\nCorrect Approaches: "+correctCount+" / "+size+".";
+        PlayEngineSound(); // Play sound for line 2
+        yield return new WaitForSeconds(1.4f);
+        if(correctCount==size)
+        {
+            reviewText.text = reviewText.text+"\nEngines Online!";
+            PlayEngineSound(); // Play sound for line 3   
+        }
+        else
+        {
+            reviewText.text = reviewText.text+"\nTry Again!";
+            PlayEngineSound(); // Play sound for line 3
+        }
+     
+
+    }
+
+    private void PlayEngineSound()
+    {
+        if (enginePuzzleAudioSource != null)
+        {
+            enginePuzzleAudioSource.Play();
+        }
+        else
+        {
+            Debug.LogWarning("enginePuzzleAudioSource is not assigned.  No sound will play.");
+        }
+    }
+
 }
