@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4891774597161072061}
   - component: {fileID: 551621327646830286}
   - component: {fileID: -7929065182919788829}
+  - component: {fileID: 6954685841870491176}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -100,3 +101,21 @@ MonoBehaviour:
     isCompleted: 0
     checkMark: {fileID: 0}
     taskText: {fileID: 0}
+--- !u!114 &6954685841870491176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5709780979902570458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8d4dc85169dea41a7f34dfb3b97e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  buttonClick: {fileID: 8300000, guid: c44b0141eebbfa046add489e5b6a324e, type: 3}
+  dragItemStart: {fileID: 8300000, guid: a724d580a18502f47ad126be55a4a861, type: 3}
+  dropItem: {fileID: 8300000, guid: 6b43a4d3dd9f7ae4d930ffca3a62ba3b, type: 3}
+  completePuzzle: {fileID: 8300000, guid: 277c389a0a196784fab109d236447129, type: 3}
+  wrongAnswer: {fileID: 8300000, guid: c6742a4d93266224a8edae9ef7505a22, type: 3}

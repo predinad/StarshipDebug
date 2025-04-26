@@ -293,6 +293,9 @@ public class NavigationPuzzle : MonoBehaviour
             attempts++;
             attemptsText.text = $"Attempts: {attempts}";
 
+            //Play wrong answer sound
+            UIAudioManager.Instance.PlayWrongAnswer();
+
             Debug.Log("Incorrect answer!");
         }
         else
@@ -319,6 +322,9 @@ public class NavigationPuzzle : MonoBehaviour
             {
                 Debug.LogWarning("NavigationUIHandler reference is not set in NavigationPuzzle.");
             }
+
+            //Play success sound
+            UIAudioManager.Instance.PlayCompletePuzzle();
         }
     }
 

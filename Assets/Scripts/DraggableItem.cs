@@ -20,6 +20,9 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         originalParent = transform.parent;
         canvasGroup.blocksRaycasts = false; // Makes sure raycasts can hit drop zones
         transform.SetParent(canvas.transform); // Move to top of canvas to avoid being clipped
+
+        //Play drag start sound
+        UIAudioManager.Instance.PlayDragStart();
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -35,7 +38,11 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         {
             // If not dropped on a valid drop zone, return to original
             transform.SetParent(originalParent);
+            return;
         }
+
+        //Play drop sound
+        UIAudioManager.Instance.PlayDropItem();
     }
 
     private float GetCanvasScale()

@@ -7,7 +7,7 @@ public class UIAudioManager : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
 
     [SerializeField] private AudioClip buttonClick;
-    [SerializeField] private AudioClip dragStart;
+    [SerializeField] private AudioClip dragItemStart;
     [SerializeField] private AudioClip dropItem;
     [SerializeField] private AudioClip completePuzzle;
     [SerializeField] private AudioClip wrongAnswer;
@@ -18,7 +18,7 @@ public class UIAudioManager : MonoBehaviour
     }
 
     public void PlayButtonClick() => audioSource.PlayOneShot(buttonClick);
-    public void PlayDragStart() => audioSource.PlayOneShot(dragStart);
+    public void PlayDragStart() => audioSource.PlayOneShot(dragItemStart);
     public void PlayDropItem() => audioSource.PlayOneShot(dropItem);
     public void PlayCompletePuzzle() => audioSource.PlayOneShot(completePuzzle);
     public void PlayWrongAnswer() => audioSource.PlayOneShot(wrongAnswer);
