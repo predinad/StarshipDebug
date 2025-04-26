@@ -18,6 +18,7 @@ public class NavigationPuzzle : MonoBehaviour
     [SerializeField] private int maxWeight = 10;
     [SerializeField] private TaskManager taskManager; // Reference to the TaskManager to update tasks
     [SerializeField] private NavigationUIHandler navigationUIHandler; // Reference to the NavigationUIHandler for UI management
+    [SerializeField] private DijkstraVisualizer dijkstraVisualizer; // Reference to the DijkstraVisualizer for visualizing the algorithm steps
     [SerializeField] private string taskName; // Name of the task to be updated
 
     //UI elements
@@ -69,6 +70,10 @@ public class NavigationPuzzle : MonoBehaviour
             conn.connectionImage.gameObject.SetActive(true); // Hide all connections
             conn.connectionText.gameObject.SetActive(true); // Hide all connection texts
         }
+
+        int start = planetNodes[0].planetNumber;
+        int end = planetNodes[planetNodes.Count - 1].planetNumber;
+        dijkstraVisualizer.InitializeSteps(start, end);
     }
 
     public void StopSubmissions()
@@ -323,6 +328,19 @@ public class NavigationPuzzle : MonoBehaviour
         {
             int rand = Random.Range(i, list.Count);
             (list[i], list[rand]) = (list[rand], list[i]);
+        }
+    }
+
+    public string GetPlanetName(int planetNumber)
+    {
+        if (nodeByNumber.TryGetValue(planetNumber, out var node))
+        {
+            return node.planetName;
+        }
+        else
+        {
+            Debug.LogWarning($"Planet number {planetNumber} not found in the lookup.");
+            return null;
         }
     }
 
