@@ -113,6 +113,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc8d4dc85169dea41a7f34dfb3b97e55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 3bd384d89abdb40458865b13e0b132c9, type: 2}
+  musicSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
   audioSource: {fileID: 0}
   buttonClick: {fileID: 8300000, guid: c44b0141eebbfa046add489e5b6a324e, type: 3}
   dragItemStart: {fileID: 8300000, guid: a724d580a18502f47ad126be55a4a861, type: 3}

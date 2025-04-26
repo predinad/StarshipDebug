@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class BackgroundMusic : MonoBehaviour
 {
     private static BackgroundMusic instance; // Singleton instance
     private AudioSource audioSource; // AudioSource to play music
-
+    
+    [SerializeField] private AudioMixerGroup musicMixerGroup; // AudioMixerGroup for music
     [SerializeField] private string[] musicFiles; // Array of music file names (without extension)
     private int currentTrackIndex = 0; // Index of the currently playing track
 
@@ -23,6 +25,7 @@ public class BackgroundMusic : MonoBehaviour
         // Set up the AudioSource
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.loop = true; // Loop by default
+        audioSource.outputAudioMixerGroup = musicMixerGroup; // Set the AudioMixerGroup
 
         // Play the first track
         PlayTrack(currentTrackIndex);

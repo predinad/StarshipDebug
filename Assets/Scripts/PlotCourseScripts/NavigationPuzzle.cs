@@ -294,7 +294,7 @@ public class NavigationPuzzle : MonoBehaviour
             attemptsText.text = $"Attempts: {attempts}";
 
             //Play wrong answer sound
-            UIAudioManager.Instance.PlayWrongAnswer();
+            AudioManager.Instance.PlayWrongAnswer();
 
             Debug.Log("Incorrect answer!");
         }
@@ -324,7 +324,7 @@ public class NavigationPuzzle : MonoBehaviour
             }
 
             //Play success sound
-            UIAudioManager.Instance.PlayCompletePuzzle();
+            AudioManager.Instance.PlayCompletePuzzle();
         }
     }
 

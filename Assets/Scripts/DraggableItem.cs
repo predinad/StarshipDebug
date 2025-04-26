@@ -22,7 +22,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         transform.SetParent(canvas.transform); // Move to top of canvas to avoid being clipped
 
         //Play drag start sound
-        UIAudioManager.Instance.PlayDragStart();
+        AudioManager.Instance.PlayDragStart();
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -42,7 +42,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         }
 
         //Play drop sound
-        UIAudioManager.Instance.PlayDropItem();
+        AudioManager.Instance.PlayDropItem();
     }
 
     private float GetCanvasScale()
