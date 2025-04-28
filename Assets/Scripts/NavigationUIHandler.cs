@@ -40,7 +40,7 @@ public class NavigationUIHandler : MonoBehaviour
             }
             else
             {
-                CloseUI();
+               //CloseUI();
             }
         }
 

@@ -119,7 +119,7 @@ public class EnginePuzzleCard : MonoBehaviour
         if (!canAnswer && Time.time >= timeLaunched + answerDelay)
         {
             canAnswer = true;
-            Debug.Log($"Puzzle Card {questionNumber}: Answering enabled.");
+            //Debug.Log($"Puzzle Card {questionNumber}: Answering enabled.");
         }
 
         // Handle movement input with delay and only if not already answered
@@ -180,7 +180,7 @@ public class EnginePuzzleCard : MonoBehaviour
     bool isCorrect = (currentIndex == correctAnswerIndex);
 
     // Log the result
-    Debug.Log($"Question {questionNumber}: Answer is {(isCorrect ? "Correct" : "Incorrect")}");
+    //Debug.Log($"Question {questionNumber}: Answer is {(isCorrect ? "Correct" : "Incorrect")}");
 
     // Call the RegisterAnswer method on the EngineTracker
     if (engineTracker != null)
@@ -220,7 +220,7 @@ public class EnginePuzzleCard : MonoBehaviour
             if (playerMovement != null)
             {
                 playerMovement.EnableMovement();
-                Debug.Log("Player movement enabled.");
+                //Debug.Log("Player movement enabled.");
             }
             else
             {
@@ -242,7 +242,7 @@ public class EnginePuzzleCard : MonoBehaviour
         if (audioSource != null && audioClip != null)
         {
             audioSource.PlayOneShot(audioClip);
-            Debug.Log("Audio clip played.");
+            //Debug.Log("Audio clip played.");
         }
         else
         {
@@ -255,7 +255,7 @@ public class EnginePuzzleCard : MonoBehaviour
         if (greenCheck != null)
         {
             greenCheck.SetActive(true);
-            Debug.Log("Green check activated.");
+            //Debug.Log("Green check activated.");
         }
         else
         {

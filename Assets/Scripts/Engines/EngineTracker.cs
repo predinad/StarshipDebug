@@ -9,16 +9,21 @@ public class EngineTracker : MonoBehaviour
     [SerializeField] private int size = 6; // Serialized field for customization in Inspector
 
     [Header("UI Components")]
-    [SerializeField] private TextMeshProUGUI statusText;
-    [SerializeField] private TextMeshProUGUI reviewText;
-    [SerializeField] private GameObject solvedScreen;   
-     
+    [SerializeField] private TextMeshProUGUI statusText; //displays x / size of the puzzles solved
+    [SerializeField] private GameObject reviewBackground; //graphic background in case the display text is hard to read, currently not implemented
+    [SerializeField] private TextMeshProUGUI reviewText; //a text panel to display the results of the engine puzzles
+    [SerializeField] private GameObject solvedScreen; //just a simple graphic to take the place of the x / size when engines are online. could be replaced by a series of objects to activate
+
     [Header("Engine Tracker")]
     [SerializeField] private TaskManager taskManager; // Reference to the the global quest tracker
     [Header("Sound Effects")]
     [SerializeField] private AudioSource enginePuzzleAudioSource;
+
+     [Header("Player object")]
+    [SerializeField] private GameObject playerObject; // Explicitly assign the player object
+
     private AudioClip successSound;
-    private AudioClip failureSound;    
+    private AudioClip failureSound;
     private AudioClip puzzleCompleteSound;
     private AudioClip enginePowerUpSound;
     private bool[] answerArray;
@@ -29,7 +34,7 @@ public class EngineTracker : MonoBehaviour
 
     private void Awake()
     {
-        if (taskManager== null)
+        if (taskManager == null)
         {
             Debug.LogError("EventSystem is not assigned to EngineTracker! Please assign it in the Inspector.");
             enabled = false;
@@ -44,13 +49,19 @@ public class EngineTracker : MonoBehaviour
         {
             Debug.LogWarning("StatusText is not assigned to EngineTracker. Text updates will not be displayed.");
         }
+        // Ensure Player Object is assigned
+        if (playerObject == null)
+        {
+            Debug.LogError("Player Object is not assigned! Please assign it in the Inspector.");
+            enabled = false;
+        }
         LoadAudioClips(); // Load audio clips in Awake
         answerArray = new bool[size];
         correctArray = new bool[size];
         Reset();
 
     }
-        private void LoadAudioClips()
+    private void LoadAudioClips()
     {
         enginePowerUpSound = Resources.Load<AudioClip>("enginePowerUp"); // Load from Resources folder
         puzzleCompleteSound = Resources.Load<AudioClip>("transferOfDataIsComplete"); // Load from Resources folder
@@ -69,7 +80,7 @@ public class EngineTracker : MonoBehaviour
 
     public void RegisterAnswer(int index, bool isCorrect)
     {
-        Debug.LogError($"Attempt made on puzzle index number: {index}.");
+        //Debug.LogError($"Attempt made on puzzle index number: {index}.");
         if (index < 0 || index >= answerArray.Length)
         {
             Debug.LogError($"Invalid index {index}. Must be between 0 and {answerArray.Length - 1}.");
@@ -82,17 +93,21 @@ public class EngineTracker : MonoBehaviour
             correctArray[index] = isCorrect;
             answeredCount++;
             UpdateStatusText();
-            if (answeredCount == answerArray.Length)
+
+        //if all questions answered, process results
+            if (answeredCount == size)
             {
                 EvaluateAnswers();
+                StartCoroutine(CoRoutineFinalReport()); 
             }
 
         }
     }
 
+
     private void EvaluateAnswers()
     {
-        Debug.Log("EvaluateAnwers called.");
+        //Debug.Log("EvaluateAnwers called.");
         correctCount = 0;
 
         foreach (bool isCorrect in correctArray)
@@ -121,12 +136,17 @@ public class EngineTracker : MonoBehaviour
         answeredCount = 0;
         correctCount = 0;
         UpdateStatusText();
+        reviewText.text = "";
+        if (reviewBackground != null)
+        {
+            reviewBackground.gameObject.SetActive(false);
+        }
         solved = false;
     }
 
     private void UpdateStatusText()
     {
-            statusText.text = $"{answeredCount} / {answerArray.Length}";
+        statusText.text = $"{answeredCount}/{answerArray.Length}";
     }
 
     public bool IsPuzzleSolved()
@@ -136,7 +156,7 @@ public class EngineTracker : MonoBehaviour
 
     private void OnPuzzleSolved()
     {
-                    Debug.Log("Onpuzzlesolved called.");
+        //Debug.Log("Onpuzzlesolved called.");
         // Disable the status text
         if (statusText != null)
         {
@@ -148,52 +168,112 @@ public class EngineTracker : MonoBehaviour
             taskManager.CompleteTask("Tune Engines");
         }
 
-        // Enable the solved object
-        if (solvedScreen != null)
-        {
-            solvedScreen.SetActive(true);
-        }
-        puzzleArea.setSolved();
-        Debug.Log("Puzzle solved! Trigger success actions here.");
-        // Implement additional logic for when the puzzle is solved
+
+
     }
-    private void UpdateReviewText()
+
+
+    private IEnumerator CoRoutineFinalReport()
     {
+        DisablePlayerMovement();
+        yield return new WaitForSeconds(1.5f);
+        //load visual card
+        
+        if (reviewBackground != null)
+        {
+            reviewBackground.gameObject.SetActive(true);
+        }
         if (reviewText != null)
         {
             reviewText.gameObject.SetActive(true); // Activate reviewText here
-            StartCoroutine(ShowTextWithDelays());
-        }
-    }
+            
+        }  
+        DisablePlayerMovement();
+        reviewText.text = "Task: Tune  Engines";//reset final report text   
+        reviewText.text = reviewText.text+"\nAll Engine Alerts Addressed";
+        PlayEngineSound(successSound); // Play sound for line 1
 
-    private IEnumerator ShowTextWithDelays()
-    {
 
-        reviewText.text = "All Engine Alerts Addressed";
-        PlayEngineSound(); // Play sound for line 1
-        yield return new WaitForSeconds(0.8f);
-        reviewText.text = reviewText.text+"\nCorrect Approaches: "+correctCount+" / "+size+".";
-        PlayEngineSound(); // Play sound for line 2
-        yield return new WaitForSeconds(1.4f);
-        if(correctCount==size)
+        yield return new WaitForSeconds(1.2f);
+        reviewText.text = reviewText.text + "\nCorrect Approaches: " + correctCount + " / " + size + ".";
+        PlayEngineSound(successSound); // Play sound for line 2
+        yield return new WaitForSeconds(1.2f);
+        if (correctCount == size)
         {
-            reviewText.text = reviewText.text+"\nEngines Online!";
-            PlayEngineSound(); // Play sound for line 3   
+            reviewText.text = reviewText.text + "\nEngines Online!";
+            PlayEngineSound(puzzleCompleteSound); // Play sound for line 3
+            // Enable the solved object
+            if (solvedScreen != null)
+            {
+                solvedScreen.SetActive(true);
+            }
+            puzzleArea.setSolved();
+
         }
         else
         {
-            reviewText.text = reviewText.text+"\nTry Again!";
-            PlayEngineSound(); // Play sound for line 3
+            reviewText.text = reviewText.text + "\nTry Again Later.";
+            PlayEngineSound(failureSound); // Play sound for line 3
         }
-     
+
+        yield return new WaitForSeconds(1.6f);
+        reviewBackground.gameObject.SetActive(false);
+        //animations and sounds are done playing now
+
+
+
+        EnablePlayerMovement();
 
     }
 
-    private void PlayEngineSound()
+    private void DisablePlayerMovement()
+    {
+        // Deactivate player movement
+        if (playerObject != null)
+            {
+                PlayerCharacterController playerMovement = playerObject.GetComponent<PlayerCharacterController>();
+                if (playerMovement != null)
+                {
+                playerMovement.DisableMovement();
+                    //Debug.Log("Player movement disabled.");
+                }
+                else
+                {
+                     Debug.LogWarning("Player object assigned, but no PlayerCharacterController script attached.");
+                }
+            }
+            else
+            {
+                 Debug.LogWarning("Player Object is not assigned in the inspector.");
+            }
+    }
+    private void EnablePlayerMovement()
+    {
+        // Reactivate player movement
+        if (playerObject != null)
+        {
+            PlayerCharacterController playerMovement = playerObject.GetComponent<PlayerCharacterController>();
+            if (playerMovement != null)
+            {
+                playerMovement.EnableMovement();
+                //Debug.Log("Player movement enabled.");
+            }
+            else
+            {
+                Debug.LogWarning("Player object assigned, but no PlayerCharacterController script attached.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Player Object is not assigned in the inspector.");
+        }
+    }
+
+    private void PlayEngineSound(AudioClip audio)
     {
         if (enginePuzzleAudioSource != null)
         {
-            enginePuzzleAudioSource.Play();
+            enginePuzzleAudioSource.PlayOneShot(audio);
         }
         else
         {

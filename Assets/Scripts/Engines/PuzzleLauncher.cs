@@ -21,8 +21,10 @@ public class PuzzleLauncher : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("current solved:"+solved);
         if (other.CompareTag("Player") && !solved)
         {
+
             SetObjectsActive(true);
         }
     }

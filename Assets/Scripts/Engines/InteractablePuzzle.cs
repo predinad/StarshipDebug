@@ -9,7 +9,7 @@ public class InteractablePuzzle : MonoBehaviour
         if (objectToActivate != null)
         {
             objectToActivate.SetActive(true);
-            Debug.Log($"{gameObject.name}: Activated!");
+            //Debug.Log($"{gameObject.name}: Activated!");
         }
     }
 }

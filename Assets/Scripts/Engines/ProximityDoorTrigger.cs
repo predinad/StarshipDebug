@@ -11,7 +11,7 @@ public class ProximityDoorTrigger : MonoBehaviour
 
         if (parentTransform != null)
         {
-            Debug.Log($"Trigger's parent is: {parentTransform.name}");
+            //Debug.Log($"Trigger's parent is: {parentTransform.name}");
             parentDoorScript = parentTransform.GetComponent<AutoDoor>();
             if (parentDoorScript == null)
             {

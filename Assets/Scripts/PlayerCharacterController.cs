@@ -93,16 +93,19 @@ public class PlayerCharacterController : MonoBehaviour
 
     public void DisableMovement()
     {
-        Debug.Log("Movement disallowed.");
+        //Debug.Log("Movement disallowed.");
         rb.linearVelocity = Vector2.zero; // Ensure any existing velocity is stopped
         speed = 0;
         isMovementAllowed = false;
+        
+        //Debug.Log("speed at 0.");
     }
 
     public void EnableMovement()
     {
         isMovementAllowed = true;
-        speed = 4f; // Restore speed
+        speed = 3.5f; // Restore speed
+        //Debug.Log("speed back to 3.5.");
     }
 
     // Interactions handled in Update
@@ -110,7 +113,7 @@ public class PlayerCharacterController : MonoBehaviour
     {
         if (Input.GetKeyDown(InputManager.Instance.GetKey(GameAction.Interact)) && currentInteractable != null && isMovementAllowed)
         {
-            Debug.Log("Interact key pressed while near an interactable.");
+            //Debug.Log("Interact key pressed while near an interactable.");
             currentInteractable.ActivatePuzzle();
             currentInteractable = null; // Optionally clear the reference after interaction
             DisableMovement();
@@ -123,7 +126,7 @@ public class PlayerCharacterController : MonoBehaviour
         if (puzzle != null)
         {
             currentInteractable = puzzle;
-            Debug.Log($"Player entered interaction range of {puzzle.gameObject.name}");
+            //Debug.Log($"Player entered interaction range of {puzzle.gameObject.name}");
         }
     }
 
@@ -133,7 +136,7 @@ public class PlayerCharacterController : MonoBehaviour
         if (puzzle != null && puzzle == currentInteractable)
         {
             currentInteractable = null;
-            Debug.Log($"Player exited interaction range of {puzzle.gameObject.name}");
+            //Debug.Log($"Player exited interaction range of {puzzle.gameObject.name}");
         }
     }
 }
