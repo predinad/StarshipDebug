@@ -7,6 +7,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using Unity.Burst.CompilerServices;
 
 public class SortingPuzzle : MonoBehaviour
 {
@@ -24,7 +25,10 @@ public class SortingPuzzle : MonoBehaviour
 	public GameObject failimg;
 	public GameObject completeimg;
 	
-	private float[] xPositions = { 385.27f, 461.27f, 533.57f, 610.27f, 687.27f };
+	//my attempt to universalize the dimensions
+	float screenWidth;
+	float multiplier;
+	private float[] xPositions;
 
     [Header("object links")]
  	[SerializeField] private TaskManager taskManager; // Reference to the the global quest tracker
@@ -33,6 +37,10 @@ public class SortingPuzzle : MonoBehaviour
 	//adding this to handle errors from unserialized links
  	private void Awake()
     {
+		screenWidth = (float)Screen.width;
+		multiplier = screenWidth/760.0f;
+		xPositions = new float[]{ 385.27f*multiplier, 461.27f*multiplier, 533.57f*multiplier, 610.27f*multiplier, 687.27f*multiplier };
+
         if (taskManager == null)
         {
             Debug.LogError("EventSystem is not assigned to EngineTracker! Please assign it in the Inspector.");
