@@ -42,9 +42,14 @@ public class Trigger : MonoBehaviour
 		}
 		else if (triggerActive && Input.GetKeyDown(InputManager.Instance.GetKey(GameAction.Interact)))
 		{
-			triggerActive = false;
-			popupPanel.SetActive(false);
+			close();
 		}
+	}
+
+	public void close()
+	{
+		isActive = false;
+		popupPanel.SetActive(false);
 	}
 
 }
