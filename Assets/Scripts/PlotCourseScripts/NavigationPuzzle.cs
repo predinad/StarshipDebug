@@ -6,6 +6,7 @@ using Unity.VisualScripting;
 //using UnityEditor.MemoryProfiler;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class NavigationPuzzle : MonoBehaviour
 {
@@ -26,6 +27,9 @@ public class NavigationPuzzle : MonoBehaviour
     [SerializeField] GameObject incorrectSubmissionText;
     [SerializeField] TextMeshProUGUI attemptsText;
     [SerializeField] TextMeshProUGUI completionAttemptsText;
+
+    [Header("puzzle launcher")] //for disabling the puzzle entry after completion
+    [SerializeField] private GameObject offsetNav; 
 
     private Dictionary<int, List<Connection>> nodeConnections = new(); // planetNumber -> connections
     private Dictionary<int, PlanetNode> nodeByNumber = new(); // planetNumber -> PlanetNode
@@ -325,6 +329,7 @@ public class NavigationPuzzle : MonoBehaviour
 
             //Play success sound
             AudioManager.Instance.PlayCompletePuzzle();
+            StartCoroutine(CoRoutineNavSolved()); 
         }
     }
 
@@ -369,6 +374,18 @@ public class NavigationPuzzle : MonoBehaviour
             nodeConnections[conn.nodeB.planetNumber].Add(conn);
         }
     }
+
+	//for use with time-delayed events, such as closing the puzzle after solved.  Currently only set up to disable the entry button
+	    private IEnumerator CoRoutineNavSolved()
+    {
+         yield return new WaitForSeconds(1.5f);
+        
+        if (offsetNav != null)
+        {
+            offsetNav.gameObject.SetActive(false);
+        }
+    }
+
 }
 
 [System.Serializable]

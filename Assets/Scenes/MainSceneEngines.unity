@@ -9264,7 +9264,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 0
+  orthographic size: 2.4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -33754,7 +33754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951554387}
   m_Layer: 0
-  m_Name: offset
+  m_Name: offsetNav
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45610,15 +45610,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3664785217443930533, guid: 6397ec779d0acaf48aaf8178c1b624ce, type: 3}
       propertyPath: m_LocalScale.x
-      value: 20
+      value: 20.63031
       objectReference: {fileID: 0}
     - target: {fileID: 3664785217443930533, guid: 6397ec779d0acaf48aaf8178c1b624ce, type: 3}
       propertyPath: m_LocalScale.y
-      value: 20
+      value: 20.63031
       objectReference: {fileID: 0}
     - target: {fileID: 3664785217443930533, guid: 6397ec779d0acaf48aaf8178c1b624ce, type: 3}
       propertyPath: m_LocalScale.z
-      value: 20
+      value: 20.63031
       objectReference: {fileID: 0}
     - target: {fileID: 3706402180743769036, guid: 6397ec779d0acaf48aaf8178c1b624ce, type: 3}
       propertyPath: audioSource
@@ -45695,6 +45695,14 @@ PrefabInstance:
     - target: {fileID: 7750230678821528738, guid: 6397ec779d0acaf48aaf8178c1b624ce, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865740425977124325, guid: 6397ec779d0acaf48aaf8178c1b624ce, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -734.148
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865740425977124325, guid: 6397ec779d0acaf48aaf8178c1b624ce, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -493.309
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46749,7 +46757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &6689976797726313560
 GameObject:
   m_ObjectHideFlags: 0
@@ -48564,6 +48572,7 @@ MonoBehaviour:
   incorrectSubmissionText: {fileID: 8031683762867152621}
   attemptsText: {fileID: 258546321997526392}
   completionAttemptsText: {fileID: 7845600534639198098}
+  offsetNav: {fileID: 1951554386}
 --- !u!222 &7968161145858098181
 CanvasRenderer:
   m_ObjectHideFlags: 0
