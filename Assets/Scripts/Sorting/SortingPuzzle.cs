@@ -6,6 +6,8 @@ using Unity.VisualScripting;
 //using UnityEditor.MemoryProfiler;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+
 public class SortingPuzzle : MonoBehaviour
 {
 	public TMP_Dropdown drop1;
@@ -21,9 +23,28 @@ public class SortingPuzzle : MonoBehaviour
 	public GameObject icon;
 	public GameObject failimg;
 	public GameObject completeimg;
+	
 	private float[] xPositions = { 385.27f, 461.27f, 533.57f, 610.27f, 687.27f };
 
+    [Header("object links")]
+ 	[SerializeField] private TaskManager taskManager; // Reference to the the global quest tracker
+    [SerializeField] private GameObject sortPuzzle;
 
+	//adding this to handle errors from unserialized links
+ 	private void Awake()
+    {
+        if (taskManager == null)
+        {
+            Debug.LogError("EventSystem is not assigned to EngineTracker! Please assign it in the Inspector.");
+            enabled = false;
+        }
+        // Ensure EngineTracker is assigned
+        if (sortPuzzle == null)
+        {
+            Debug.LogError("PuzzleArea is not assigned to EngineTracker! Please assign it in the Inspector.");
+            enabled = false;
+        }
+	}
 
 	public void OnButtonPress()
 	{
@@ -94,6 +115,24 @@ public class SortingPuzzle : MonoBehaviour
 				boxes[i].transform.position = newPosition;
 			}
 		}
+		
+		//adding a call to the new timer method
+        StartCoroutine(CoRoutineSolved()); 
 	}
+
+	//for use with time-delayed events, such as closing the puzzle after solved	
+	    private IEnumerator CoRoutineSolved()
+    {
+         yield return new WaitForSeconds(1.5f);
+        
+		if (taskManager != null)
+        {
+            taskManager.CompleteTask("Sort Supplies");
+        }
+        if (sortPuzzle != null)
+        {
+            sortPuzzle.gameObject.SetActive(false);
+        }
+    }
 
 }

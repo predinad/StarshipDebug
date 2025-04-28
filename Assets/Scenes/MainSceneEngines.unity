@@ -9264,7 +9264,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.895
+  orthographic size: 0
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -9854,6 +9854,8 @@ MonoBehaviour:
   icon: {fileID: 111200821}
   failimg: {fileID: 1683302529}
   completeimg: {fileID: 1958267453}
+  taskManager: {fileID: 1745970531}
+  sortPuzzle: {fileID: 584590068}
 --- !u!114 &584590070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40716,7 +40718,7 @@ PrefabInstance:
       objectReference: {fileID: 88138045}
     - target: {fileID: 5709780979902570458, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
       propertyPath: m_Name
-      value: GameManager
+      value: GameManager2
       objectReference: {fileID: 0}
     - target: {fileID: 6954685841870491176, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
       propertyPath: sfxSlider
