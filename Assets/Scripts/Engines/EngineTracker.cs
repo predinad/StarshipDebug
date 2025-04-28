@@ -167,7 +167,11 @@ public class EngineTracker : MonoBehaviour
         {
             taskManager.CompleteTask("Tune Engines");
         }
-
+        if (puzzleArea != null)
+        {
+            PuzzleLauncher engineArea = puzzleArea.GetComponent<PuzzleLauncher>();
+            engineArea.setSolved();
+        }
 
 
     }
@@ -176,7 +180,7 @@ public class EngineTracker : MonoBehaviour
     private IEnumerator CoRoutineFinalReport()
     {
         DisablePlayerMovement();
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.2f);
         //load visual card
         
         if (reviewBackground != null)
