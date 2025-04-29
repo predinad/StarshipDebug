@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using TMPro;
 
+
 public class EngineTracker : MonoBehaviour
 {
     [Header("attach puzzlearea")]
@@ -156,7 +157,7 @@ public class EngineTracker : MonoBehaviour
 
     private void OnPuzzleSolved()
     {
-        //Debug.Log("Onpuzzlesolved called.");
+        Debug.Log("Onpuzzlesolved called.");
         // Disable the status text
         if (statusText != null)
         {
@@ -165,14 +166,17 @@ public class EngineTracker : MonoBehaviour
 
         if (taskManager != null)
         {
+            //placeholder
+            taskManager.CompleteTask("Fix Reactor");
+
             taskManager.CompleteTask("Tune Engines");
+	    	taskManager.CheckIfAllComplete();
         }
         if (puzzleArea != null)
         {
             PuzzleLauncher engineArea = puzzleArea.GetComponent<PuzzleLauncher>();
             engineArea.setSolved();
         }
-
 
     }
 

@@ -123,7 +123,6 @@ public class SortingPuzzle : MonoBehaviour
 		button.SetActive(false);
 		button2.SetActive(true);
 		icon.SetActive(false);
-		Trigger.isSolved = true;
 		for (int i = 0; i < boxes.Length; i++)
 		{
 			if (boxes[i] != null)
@@ -133,7 +132,16 @@ public class SortingPuzzle : MonoBehaviour
 				boxes[i].transform.position = newPosition;
 			}
 		}
+
 		taskManager.CompleteTask(taskName);
+		taskManager.CheckIfAllComplete();
+	 	
+	 	if (sortPuzzle != null)
+	 	{
+	 		sortPuzzle.gameObject.SetActive(false);
+	 	}
+
+		Trigger.isSolved = true;
 		//adding a call to the new timer method
 		// StartCoroutine(CoRoutineSolved()); 
 	}
@@ -146,11 +154,7 @@ public class SortingPuzzle : MonoBehaviour
 	// 	if (taskManager != null)
 	// 	{
 	// 		taskManager.CompleteTask("Sort Supplies");
-	// 	}
-	// 	if (sortPuzzle != null)
-	// 	{
-	// 		sortPuzzle.gameObject.SetActive(false);
-	// 	}
+
 	// }
 
 }

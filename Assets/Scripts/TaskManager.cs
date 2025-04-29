@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /**
  * TaskManager is responsible for managing the task list.
@@ -60,5 +61,22 @@ public class TaskManager : MonoBehaviour
         {
             Debug.LogWarning("Task not found:" + taskName);
         }
+    
+    }
+    public void CheckIfAllComplete()
+    {
+    Debug.Log("checking all tasks.");
+        // Check if all tasks in the taskMap are marked as complete
+    foreach (var pair in taskMap)
+    {
+        if (!pair.Value.isCompleted)
+        {
+            return; // If any task is not complete, exit the method
+        }
+    }
+    // If the loop completes without returning, all tasks are complete
+
+    //Debug.Log("All tasks completed! Loading credits scene.");
+    SceneManager.LoadScene("credits");
     }
 }

@@ -312,6 +312,8 @@ public class NavigationPuzzle : MonoBehaviour
             {
                 taskManager.CompleteTask(taskName); // Mark the task as completed
                 Debug.Log($"Task '{taskName}' marked as completed.");
+                
+                taskManager.CheckIfAllComplete();
             }
             else
             {
@@ -379,6 +381,7 @@ public class NavigationPuzzle : MonoBehaviour
 	    private IEnumerator CoRoutineNavSolved()
     {
          yield return new WaitForSeconds(1.5f);
+        
         
         if (offsetNav != null)
         {

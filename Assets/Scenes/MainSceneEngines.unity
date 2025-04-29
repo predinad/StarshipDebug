@@ -9264,7 +9264,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 2.265
+  orthographic size: 4.895
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -9856,7 +9856,7 @@ MonoBehaviour:
   failimg: {fileID: 1683302529}
   completeimg: {fileID: 1958267453}
   taskManager: {fileID: 1745970531}
-  taskName: 'Sort '
+  taskName: Sort Supplies
   sortPuzzle: {fileID: 584590068}
   trigger: {fileID: 584590070}
 --- !u!114 &584590070
@@ -21383,7 +21383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1251441399
 RectTransform:
   m_ObjectHideFlags: 0
