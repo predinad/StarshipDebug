@@ -3502,6 +3502,8 @@ MonoBehaviour:
   victoryScreen: {fileID: 1463188693}
   mainScene: {fileID: 1843068138}
   droidScene: {fileID: 1168687379}
+  taskManager: {fileID: 1745970531}
+  reactorPuzzle: {fileID: 262024661}
 --- !u!4 &140747831
 Transform:
   m_ObjectHideFlags: 0
@@ -5508,7 +5510,7 @@ GameObject:
   - component: {fileID: 262024664}
   - component: {fileID: 262024663}
   m_Layer: 0
-  m_Name: DroidPuzzle
+  m_Name: DroidPuzzleLauncher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12609,7 +12611,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 3.595
+  orthographic size: 2.4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -35391,7 +35393,6 @@ Transform:
   - {fileID: 140747831}
   - {fileID: 358164591}
   - {fileID: 734892199}
-  - {fileID: 1213676391}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1172641219 stripped
@@ -36060,11 +36061,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!4 &1213676391 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-  m_PrefabInstance: {fileID: 1417035022}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1213889823
 GameObject:
   m_ObjectHideFlags: 0
@@ -40123,131 +40119,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b966de6a721f08c42bbf0a6276bda9ad, type: 3}
---- !u!1001 &1417035022
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1168687380}
-    m_Modifications:
-    - target: {fileID: -7929065182919788829, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: tasks.Array.data[0].taskText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: -7929065182919788829, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: tasks.Array.data[1].taskText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: -7929065182919788829, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: tasks.Array.data[2].taskText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: -7929065182919788829, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: tasks.Array.data[3].taskText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: -7929065182919788829, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: tasks.Array.data[0].checkMark
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: -7929065182919788829, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: tasks.Array.data[1].checkMark
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: -7929065182919788829, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: tasks.Array.data[2].checkMark
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: -7929065182919788829, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: tasks.Array.data[3].checkMark
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -8.697264
-      objectReference: {fileID: 0}
-    - target: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -8.239161
-      objectReference: {fileID: 0}
-    - target: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.102264404
-      objectReference: {fileID: 0}
-    - target: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 419536689254680935, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4891774597161072061, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: taskUI.taskUIObject
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4891774597161072061, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: taskUI.showTaskButtonText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4891774597161072061, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: uiPanelEntries.Array.data[0].panelObject
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4891774597161072061, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: uiPanelEntries.Array.data[1].panelObject
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4891774597161072061, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: uiPanelEntries.Array.data[2].panelObject
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5709780979902570458, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_Name
-      value: GameManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 5709780979902570458, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6954685841870491176, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: sfxSlider
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6954685841870491176, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6954685841870491176, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
-      propertyPath: musicSlider
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 91ac2da92a08ab4408f095573f74afbb, type: 3}
 --- !u!1 &1418026282
 GameObject:
   m_ObjectHideFlags: 0

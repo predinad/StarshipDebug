@@ -15,7 +15,7 @@ public class EngineTracker : MonoBehaviour
     [SerializeField] private TextMeshProUGUI reviewText; //a text panel to display the results of the engine puzzles
     [SerializeField] private GameObject solvedScreen; //just a simple graphic to take the place of the x / size when engines are online. could be replaced by a series of objects to activate
 
-    [Header("Engine Tracker")]
+    [Header("Main Tracker")]
     [SerializeField] private TaskManager taskManager; // Reference to the the global quest tracker
     [Header("Sound Effects")]
     [SerializeField] private AudioSource enginePuzzleAudioSource;
@@ -166,9 +166,6 @@ public class EngineTracker : MonoBehaviour
 
         if (taskManager != null)
         {
-            //placeholder
-            taskManager.CompleteTask("Fix Reactor");
-
             taskManager.CompleteTask("Tune Engines");
 	    	taskManager.CheckIfAllComplete();
         }
