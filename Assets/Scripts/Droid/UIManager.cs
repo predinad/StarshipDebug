@@ -11,6 +11,8 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private GameObject trigger;
 
+    [SerializeField] private LuaScriptRunner luaRunner;
+
     [Header("Main Tracker")]
     [SerializeField] private TaskManager taskManager; // Reference to the the global quest tracker
     
@@ -34,11 +36,13 @@ public class UIManager : MonoBehaviour
 
     public void HideInitialText()
     {
+        luaRunner.ResetCode();
         initialText.SetActive(false);
     }
 
     public void closePuzzle()
     {
+        luaRunner.ResetCode();
         mainScene.SetActive(true);
         droidScene.SetActive(false);
         trigger.SetActive(false);
