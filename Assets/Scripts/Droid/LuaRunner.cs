@@ -3,7 +3,6 @@ using MoonSharp.Interpreter;
 using TMPro;
 using System.Threading;
 using System.Collections.Concurrent;
-using UnityEditor.PackageManager;
 
 public class LuaScriptRunner : MonoBehaviour
 {

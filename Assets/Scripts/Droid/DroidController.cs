@@ -23,13 +23,13 @@ public class DroidController : MonoBehaviour
     private int animDir = 0;
     private int delay = 0;
     public const int MAX_QUEUE_SIZE = 50;
-    [SerializeField] private GameObject objectContainer;
-    [SerializeField] private GameObject obstacleList;
-    [SerializeField] private GameObject itemList;
-    [SerializeField] private GameObject outputsList;
+    private GameObject objectContainer;
+    private GameObject itemList;
+    private GameObject outputsList;
     [SerializeField] private UIManager uiManager;
-    [SerializeField] public TMP_Text errorMessage;
-    [SerializeField] private int targetItems;
+    [SerializeField] private TMP_Text errorMessage;
+    [SerializeField] private DroidSpawn spawn;
+    private int targetItems = 3;
     private GameObject holding = null;
     private int droppedItems = 0;
 
@@ -40,15 +40,10 @@ public class DroidController : MonoBehaviour
     public AudioClip winSound;
     public AudioClip blockSound;
 
-    private Vector2 initialPosition  = Vector2.zero;
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        targetPos = rb.position;
-        lastPos = rb.position;
-        initialPosition = rb.position;
     }
 
     private void FixedUpdate()
@@ -251,8 +246,8 @@ public class DroidController : MonoBehaviour
 
             holding.transform.position = lookPos;
             audioSource.PlayOneShot(dropSound);
-            holding = null;
             holding.SetActive(true);
+            holding = null;
             working = false;
             delay = 5;
             });
@@ -287,8 +282,37 @@ public class DroidController : MonoBehaviour
         return null;
     }
 
-    public void ResetAll()
+    internal void ResetAll()
     {
+        actionQueue = new ConcurrentQueue<System.Action>();
+        rb.linearVelocity = Vector2.zero;
+        working = false;
+        errors = new ConcurrentQueue<string>();
+
+        rb.position = spawn.GetInitPos();
+        targetPos = rb.position;
+        lastPos = rb.position;
+
+        lookDir = spawn.GetInitDir();
+
+        if (lookDir == Vector2.down)
+            animDir = 0;
+        else if (lookDir == Vector2.left)
+            animDir = 3;
+        else if (lookDir == Vector2.up)
+            animDir = 2;
+        else if (lookDir == Vector2.right)
+            animDir = 1;
+
+        animator.SetInteger("direction", animDir);
+        delay = 0;
+        objectContainer = spawn.GetObjectContainer();
+        itemList = spawn.GetItemList(); ;
+        outputsList = spawn.getOutputList();
+        targetItems = spawn.getItemCount();
+        holding = null;
+        droppedItems = 0;
+
         foreach (Transform list in objectContainer.transform)
         {
             foreach (Transform obj in list)
@@ -296,17 +320,10 @@ public class DroidController : MonoBehaviour
                 obj.GetComponent<Resetter>().ResetPosition();
             }
         }
-        rb.linearVelocity = Vector2.zero;
-        animDir = 0;
-        animator.SetInteger("direction", animDir);
-        rb.position = initialPosition;
-        targetPos = initialPosition;
-        lastPos = initialPosition;
-        holding = null;
-        droppedItems = 0;
-        delay = 0;
-        working = false;
-        actionQueue = new ConcurrentQueue<System.Action>();
-        lookDir = Vector2.down;
+    }
+
+    internal void setSpawn(DroidSpawn newSpawn)
+    {
+        spawn = newSpawn;
     }
 }
