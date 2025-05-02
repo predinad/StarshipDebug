@@ -305,7 +305,7 @@ public class DroidController : MonoBehaviour
             animDir = 1;
 
         animator.SetInteger("direction", animDir);
-        delay = 0;
+        delay = 2;
         objectContainer = spawn.GetObjectContainer();
         itemList = spawn.GetItemList(); ;
         outputsList = spawn.getOutputList();
