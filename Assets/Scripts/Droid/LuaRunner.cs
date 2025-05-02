@@ -2,12 +2,16 @@ using UnityEngine;
 using MoonSharp.Interpreter;
 using TMPro;
 using System.Threading;
+using System.Collections.Concurrent;
+using UnityEditor.PackageManager;
 
 public class LuaScriptRunner : MonoBehaviour
 {
     public TMP_InputField codeInputField;
     public DroidController droid;
+    [SerializeField] public TMP_Text errorMessage;
     public Script script;
+
     private Thread luaThread;
 
     private void Start()
@@ -18,6 +22,7 @@ public class LuaScriptRunner : MonoBehaviour
 
     public void RunCode()
     {
+        errorMessage.text = "";
         string code = codeInputField.text;
 
         if (luaThread != null)
@@ -35,7 +40,13 @@ public class LuaScriptRunner : MonoBehaviour
             }
             catch (ScriptRuntimeException ex)
             {
-                Debug.LogError("Lua Error: " + ex.DecoratedMessage);
+                Debug.Log(ex.DecoratedMessage);
+                droid.errors.Enqueue(ex.DecoratedMessage);
+            }
+            catch (SyntaxErrorException ex)
+            {
+                Debug.Log(ex.DecoratedMessage);
+                droid.errors.Enqueue(ex.DecoratedMessage);
             }
         });
         luaThread.Start();
@@ -43,7 +54,7 @@ public class LuaScriptRunner : MonoBehaviour
 
     public void ResetCode()
     {
-        if(luaThread.IsAlive)
+        if (luaThread != null && luaThread.IsAlive)
             luaThread.Abort();
         luaThread = null;
         droid.ResetAll();

@@ -9,6 +9,7 @@ public class StartPuzzle : MonoBehaviour
     private bool hasActivated = false;
     [SerializeField] private GameObject mainScene;
     [SerializeField] private GameObject droidScene;
+    [SerializeField] private GameObject startText;
 
     void OnEnable()
     {
@@ -28,5 +29,6 @@ public class StartPuzzle : MonoBehaviour
     {
         mainScene.SetActive(false);
         droidScene.SetActive(true);
+        startText.SetActive(true);
     }
 }

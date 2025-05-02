@@ -9,6 +9,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject mainScene;
     [SerializeField] private GameObject droidScene;
 
+    [SerializeField] private GameObject trigger;
+
     [Header("Main Tracker")]
     [SerializeField] private TaskManager taskManager; // Reference to the the global quest tracker
     
@@ -35,12 +37,19 @@ public class UIManager : MonoBehaviour
         initialText.SetActive(false);
     }
 
+    public void closePuzzle()
+    {
+        mainScene.SetActive(true);
+        droidScene.SetActive(false);
+        trigger.SetActive(false);
+
+    }
+
     public void NextLevel()
     {
         victoryScreen.SetActive(false);
 
-        mainScene.SetActive(true);
-        droidScene.SetActive(false);
+        closePuzzle();
 
         //checks off the quest in the main tracker and disables icon for the reacorPuzzle
         if (taskManager != null)

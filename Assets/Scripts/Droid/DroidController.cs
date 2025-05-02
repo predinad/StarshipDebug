@@ -4,6 +4,7 @@ using System.Collections.Concurrent;
 using System.Threading;
 using UnityEngine.Rendering.Universal;
 using Unity.VisualScripting;
+using TMPro;
 
 
 [MoonSharpUserData]
@@ -13,6 +14,7 @@ public class DroidController : MonoBehaviour
     private float speed = 4f;
     private bool working = false;
     private ConcurrentQueue<System.Action> actionQueue = new ConcurrentQueue<System.Action>();
+    public ConcurrentQueue<string> errors = new ConcurrentQueue<string>();
     private Rigidbody2D rb;
     private Animator animator;
     private Vector2 lookDir = Vector2.down;
@@ -25,8 +27,8 @@ public class DroidController : MonoBehaviour
     [SerializeField] private GameObject obstacleList;
     [SerializeField] private GameObject itemList;
     [SerializeField] private GameObject outputsList;
-    [SerializeField] private GameObject victoryMenu;
     [SerializeField] private UIManager uiManager;
+    [SerializeField] public TMP_Text errorMessage;
     [SerializeField] private int targetItems;
     private GameObject holding = null;
     private int droppedItems = 0;
@@ -51,6 +53,15 @@ public class DroidController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (errors.Count > 0)
+        {
+
+            errors.TryDequeue(out var error);
+            Debug.Log(error);
+            if (error != null)
+                errorMessage.text = error;
+        }
+
         if (!working)
         {
             if (actionQueue.Count == 0)
@@ -79,6 +90,7 @@ public class DroidController : MonoBehaviour
         {
             checkStop();
         }
+
     }
 
     private void checkStop()
@@ -218,9 +230,12 @@ public class DroidController : MonoBehaviour
                 }
 
                 holding.transform.position = new Vector2(-50,-50);
+                holding = null;
                 working = false;
                 delay = 10;
                 droppedItems += 1;
+
+                Debug.Log(droppedItems);
 
                 if(droppedItems == targetItems)
                 {
@@ -236,6 +251,7 @@ public class DroidController : MonoBehaviour
 
             holding.transform.position = lookPos;
             audioSource.PlayOneShot(dropSound);
+            holding = null;
             holding.SetActive(true);
             working = false;
             delay = 5;
